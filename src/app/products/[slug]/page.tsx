@@ -2,8 +2,7 @@ import { getProductBySlug } from '@/lib/products';
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import { formatPrice } from '@/lib/utils';
-import { createCheckoutSession } from '@/app/actions';
-import { BuyButton } from '@/components/BuyButton';
+import { AddToCartButton } from '@/components/AddToCartButton';
 
 type ProductPageProps = {
   params: {
@@ -30,15 +29,12 @@ export default async function ProductPage({ params }: ProductPageProps) {
   if (!product) {
     notFound();
   }
-  
-  // Bind the product's priceId to the server action.
-  const createCheckoutSessionWithPriceId = createCheckoutSession.bind(null, product.priceId);
 
   return (
     <div className="py-12 animate-in fade-in duration-500">
       <div className="grid md:grid-cols-2 gap-8 lg:gap-16">
         <div className="flex justify-center items-start">
-          <div className="aspect-[3/4] w-full max-w-md bg-card rounded-lg overflow-hidden shadow-lg">
+          <div className="aspect-[3/4] w-full max-w-md bg-card rounded-lg overflow-hidden shadow-2xl">
             <Image
               src={product.imageUrl}
               alt={product.name}
@@ -60,14 +56,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <p className="text-lg text-foreground/80 leading-relaxed mb-8">
             {product.description}
           </p>
-          
-          {/*
-            This form calls the `createCheckoutSessionWithPriceId` server action.
-            The BuyButton is a client component that shows a pending state.
-          */}
-          <form action={createCheckoutSessionWithPriceId}>
-            <BuyButton />
-          </form>
+
+          <AddToCartButton product={product} />
         </div>
       </div>
     </div>

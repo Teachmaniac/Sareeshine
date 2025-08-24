@@ -3,6 +3,7 @@ import { formatPrice } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
+import { AddToCartButton } from './AddToCartButton';
 
 type ProductCardProps = {
   product: Product;
@@ -18,8 +19,8 @@ type ProductCardProps = {
  */
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <Link href={`/products/${product.slug}`} className="group block">
-      <Card className="h-full w-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 border-2 border-transparent hover:border-primary">
+    <Card className="h-full w-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 border-2 border-transparent hover:border-primary flex flex-col">
+      <Link href={`/products/${product.slug}`} className="group block">
         <CardHeader className="p-0">
           <div className="aspect-[3/4] overflow-hidden">
             <Image
@@ -35,10 +36,11 @@ export default function ProductCard({ product }: ProductCardProps) {
         <CardContent className="p-4 bg-card/50 backdrop-blur-sm">
           <CardTitle className="text-lg font-headline leading-tight truncate group-hover:text-primary transition-colors duration-300">{product.name}</CardTitle>
         </CardContent>
-        <CardFooter className="p-4 pt-0 bg-card/50 backdrop-blur-sm">
-          <p className="text-lg font-bold text-primary">{formatPrice(product.price)}</p>
-        </CardFooter>
-      </Card>
-    </Link>
+      </Link>
+      <CardFooter className="p-4 pt-0 bg-card/50 backdrop-blur-sm mt-auto flex-col items-start gap-4">
+        <p className="text-lg font-bold text-primary">{formatPrice(product.price)}</p>
+        <AddToCartButton product={product} />
+      </CardFooter>
+    </Card>
   );
 }
