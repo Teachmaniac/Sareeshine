@@ -1,43 +1,2502 @@
-
 [
   {
     "id": 1,
-    "name": "Crimson Banarasi Silk",
-    "slug": "crimson-banarasi-silk",
-    "price": 18999,
-    "priceId": "price_1PaYtDRp8gGvF8aJzC5g6b7h",
-    "description": "A masterpiece of traditional craftsmanship, this Banarasi silk saree features intricate gold zari work on a rich crimson canvas. The pallu is heavily decorated with floral motifs, making it perfect for weddings and grand occasions. The silk is soft yet has a magnificent drape.",
-    "imageUrl": "https://placehold.co/600x800/800000/F8E8E8.png",
-    "data-ai-hint": "saree silk"
+    "name": "Emerald Green Kanjivaram Silk Saree",
+    "slug": "emerald-green-kanjivaram-silk-saree",
+    "price": 7999,
+    "priceId": "price_1PDRy0P8pYj9qQ7tQd7Lp8rA",
+    "description": "A magnificent Kanjivaram silk saree in a deep emerald green, featuring intricate golden zari work in traditional temple patterns. Perfect for weddings and grand occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
   },
   {
     "id": 2,
-    "name": "Royal Kanjivaram Weave",
-    "slug": "royal-kanjivaram-weave",
-    "price": 24999,
-    "priceId": "price_1PaYuhRp8gGvF8aJyZaq0n3i",
-    "description": "Woven with pure mulberry silk, this Kanjivaram saree boasts a classic temple border and a contrasting pallu in deep navy blue. The body is adorned with subtle peacock motifs, symbolizing grace and beauty. It's a timeless addition to any heirloom collection.",
-    "imageUrl": "https://placehold.co/600x800/000080/F8E8E8.png",
-    "data-ai-hint": "saree traditional"
+    "name": "Royal Blue Banarasi Silk Saree",
+    "slug": "royal-blue-banarasi-silk-saree",
+    "price": 5999,
+    "priceId": "price_1PDRzRP8pYj9qQ7tO8f9g4hT",
+    "description": "Feel like royalty in this stunning Banarasi saree. The rich blue silk is adorned with elaborate silver thread work, creating a breathtaking floral jaal design.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
   },
   {
     "id": 3,
-    "name": "Elegant Georgette Saree",
-    "slug": "elegant-georgette-saree",
-    "price": 9999,
-    "priceId": "price_1PaYvKRp8gGvF8aJd2m3e4f5",
-    "description": "Lightweight and flowy, this georgette saree is designed for the modern woman. It features delicate sequin work along the border and a muted gold blouse piece. Its subtle elegance makes it ideal for evening parties and festive gatherings.",
-    "imageUrl": "https://placehold.co/600x800/B8860B/FFFFFF.png",
-    "data-ai-hint": "saree fashion"
+    "name": "Sunset Orange Chiffon Saree",
+    "slug": "sunset-orange-chiffon-saree",
+    "price": 2999,
+    "priceId": "price_1PDS0FP8pYj9qQ7tf6gH3iJk",
+    "description": "Light and airy, this chiffon saree in a vibrant sunset orange is ideal for summer parties. It features a delicate sequin border that adds a touch of sparkle.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
   },
   {
     "id": 4,
-    "name": "Pastel Cotton Saree",
-    "slug": "pastel-cotton-saree",
+    "name": "Classic Ivory Cotton Saree",
+    "slug": "classic-ivory-cotton-saree",
+    "price": 1999,
+    "priceId": "price_1PDS1BP8pYj9qQ7tL2kM4nO5",
+    "description": "Elegance in simplicity. This handloom cotton saree in a classic ivory white comes with a contrasting red and black temple border. Comfortable for all-day wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "white saree"
+  },
+  {
+    "id": 5,
+    "name": "Magenta Georgette Saree",
+    "slug": "magenta-georgette-saree",
+    "price": 3499,
+    "priceId": "price_1PDS26P8pYj9qQ7tP5qR7sUv",
+    "description": "A bold and beautiful georgette saree in a striking magenta pink. It is embellished with subtle mirror work, making it a modern and chic choice for any event.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 6,
+    "name": "Charcoal Black Tussar Silk Saree",
+    "slug": "charcoal-black-tussar-silk-saree",
+    "price": 4599,
+    "priceId": "price_1PDS2yP8pYj9qQ7tW1xY9zAb",
+    "description": "Sophisticated and earthy, this Tussar silk saree in charcoal black features traditional Kantha stitch embroidery, depicting scenes from nature.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 7,
+    "name": "Golden Tissue Saree",
+    "slug": "golden-tissue-saree",
+    "price": 6999,
+    "priceId": "price_1PDS3rP8pYj9qQ7tC4dE6fGh",
+    "description": "Glimmer and shine in this exquisite golden tissue saree. It's lightweight and has a lustrous texture, complemented by a minimalist maroon border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "gold saree"
+  },
+  {
+    "id": 8,
+    "name": "Lavender Crepe Saree",
+    "slug": "lavender-crepe-saree",
+    "price": 3199,
+    "priceId": "price_1PDS4kP8pYj9qQ7tI8jK0lMn",
+    "description": "A soft and flowy crepe saree in a delicate lavender shade. Adorned with fine crystal work, it offers a graceful and contemporary look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 9,
+    "name": "Teal Blue Paithani Saree",
+    "slug": "teal-blue-paithani-saree",
+    "price": 8999,
+    "priceId": "price_1PDS5fP8pYj9qQ7tO1pQ2rSt",
+    "description": "A traditional Maharashtrian Paithani saree in a rich teal blue. The pallu is a masterpiece of colorful silk threads woven into peacock motifs.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 10,
+    "name": "Crimson Red Bandhani Saree",
+    "slug": "crimson-red-bandhani-saree",
+    "price": 4299,
+    "priceId": "price_1PDS6bP8pYj9qQ7tU3vX4yZa",
+    "description": "Celebrate tradition with this vibrant crimson red Bandhani saree from Gujarat. The tie-dye patterns are handcrafted, making each piece unique.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 11,
+    "name": "Mustard Yellow Linen Saree",
+    "slug": "mustard-yellow-linen-saree",
+    "price": 2799,
+    "priceId": "price_1PDS7XP8pYj9qQ7tW5xY7zAb",
+    "description": "Stay cool and chic in this mustard yellow linen saree. It features a simple silver border and is perfect for casual outings or office wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 12,
+    "name": "Pastel Green Organza Saree",
+    "slug": "pastel-green-organza-saree",
+    "price": 3899,
+    "priceId": "price_1PDS8SP8pYj9qQ7tC7dE9fGh",
+    "description": "Sheer and elegant, this organza saree in a soft pastel green is hand-painted with delicate floral motifs, offering a dreamy and ethereal vibe.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 13,
+    "name": "Deep Maroon Velvet Saree",
+    "slug": "deep-maroon-velvet-saree",
+    "price": 7599,
+    "priceId": "price_1PDS9OP8pYj9qQ7tI0jK2lMn",
+    "description": "A luxurious velvet saree in a deep maroon hue, perfect for winter weddings. It is richly embroidered with zardozi work along the border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 14,
+    "name": "Sky Blue Chikankari Saree",
+    "slug": "sky-blue-chikankari-saree",
+    "price": 5499,
+    "priceId": "price_1PDSAKP8pYj9qQ7tO3pQ4rSt",
+    "description": "An exquisite georgette saree from Lucknow in a pleasant sky blue, featuring intricate Chikankari hand-embroidery all over.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 15,
+    "name": "Peach Satin Saree",
+    "slug": "peach-satin-saree",
+    "price": 3399,
+    "priceId": "price_1PDSBGP8pYj9qQ7tU5vX6yZa",
+    "description": "Smooth and glossy, this satin saree in a lovely peach color drapes beautifully. It is accented with a pearl-encrusted border for a touch of glamour.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 16,
+    "name": "Bottle Green Raw Silk Saree",
+    "slug": "bottle-green-raw-silk-saree",
+    "price": 4899,
+    "priceId": "price_1PDSCRP8pYj9qQ7tW8xY0zAb",
+    "description": "This raw silk saree in a rich bottle green has a natural texture and sheen. It is paired with a contrasting pink and gold border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 17,
+    "name": "Beige and Gold Kerala Kasavu Saree",
+    "slug": "beige-gold-kerala-kasavu-saree",
+    "price": 3999,
+    "priceId": "price_1PDSDNP8pYj9qQ7tC9dE2fGh",
+    "description": "The traditional Kerala Kasavu saree in its classic beige and gold combination. Made from pure cotton, it's a symbol of grace and cultural heritage.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "beige saree"
+  },
+  {
+    "id": 18,
+    "name": "Wine Purple Net Saree",
+    "slug": "wine-purple-net-saree",
+    "price": 4199,
+    "priceId": "price_1PDSEKP8pYj9qQ7tI3jK5lMn",
+    "description": "A glamorous net saree in a deep wine purple. It's heavily embellished with stone and bead work, making it perfect for receptions and cocktail parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 19,
+    "name": "Off-White Jamdani Saree",
+    "slug": "off-white-jamdani-saree",
+    "price": 6299,
+    "priceId": "price_1PDSFGP8pYj9qQ7tO6pQ8rSt",
+    "description": "A fine muslin Jamdani saree from Bengal in a subtle off-white. The intricate, hand-woven geometric patterns are a testament to artisanal skill.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "white saree"
+  },
+  {
+    "id": 20,
+    "name": "Burnt Orange Art Silk Saree",
+    "slug": "burnt-orange-art-silk-saree",
+    "price": 2499,
+    "priceId": "price_1PDSGBP8pYj9qQ7tU8vX0yZa",
+    "description": "A vibrant art silk saree in a warm burnt orange. It features printed Kalamkari-inspired motifs and a simple zari border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 21,
+    "name": "Royal Kanjivaram Brocade Saree",
+    "slug": "royal-kanjivaram-brocade-saree",
+    "price": 9500,
+    "priceId": "price_1PDSHBP8pYj9qQ7tWbxY3zAb",
+    "description": "A masterpiece of Kanjivaram weaving, this brocade saree features all-over gold zari work in peacock and floral designs. A true heirloom piece.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "gold saree"
+  },
+  {
+    "id": 22,
+    "name": "Sea Green Chanderi Saree",
+    "slug": "sea-green-chanderi-saree",
+    "price": 3699,
+    "priceId": "price_1PDSI7P8pYj9qQ7tDbjK4fGh",
+    "description": "Lightweight and glossy, this Chanderi saree in a calming sea green is perfect for daytime functions. It is decorated with silver butis and a floral border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 23,
+    "name": "Fuchsia Pink Patola Silk Saree",
+    "slug": "fuchsia-pink-patola-silk-saree",
+    "price": 12999,
+    "priceId": "price_1PDSJ3P8pYj9qQ7tIejK7lMn",
+    "description": "An authentic Patan Patola saree in fuchsia pink, featuring the intricate double ikat weave. Known for its vibrant colors and geometric patterns.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 24,
+    "name": "Navy Blue Georgette Saree with Ruffles",
+    "slug": "navy-blue-georgette-saree-ruffles",
+    "price": 3799,
+    "priceId": "price_1PDSK0P8pYj9qQ7tOjpQ0rSt",
+    "description": "A modern take on the classic saree. This navy blue georgette saree features trendy ruffle detailing along the border and pallu, adding a playful touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 25,
+    "name": "Earthy Brown Khadi Saree",
+    "slug": "earthy-brown-khadi-saree",
+    "price": 2299,
+    "priceId": "price_1PDSLwP8pYj9qQ7tUkvX2yZa",
+    "description": "Embrace sustainability with this hand-spun, hand-woven Khadi saree in an earthy brown. It has a rustic charm and is incredibly comfortable.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "brown saree"
+  },
+  {
+    "id": 26,
+    "name": "Ruby Red Banarasi Georgette Saree",
+    "slug": "ruby-red-banarasi-georgette-saree",
+    "price": 6499,
+    "priceId": "price_1PDSMtP8pYj9qQ7tWnxY5zAb",
+    "description": "A beautiful fusion of Banarasi and Georgette, this ruby red saree is lightweight yet has the opulence of traditional zari work.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 27,
+    "name": "Mint Green Satin-Crepe Saree",
+    "slug": "mint-green-satin-crepe-saree",
+    "price": 3599,
+    "priceId": "price_1PDSNqP8pYj9qQ7tDpjK7fGh",
+    "description": "This saree in a refreshing mint green combines the smoothness of satin with the fall of crepe. It has a minimalist design with a subtle sheen.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 28,
+    "name": "Black and Gold Sequins Saree",
+    "slug": "black-gold-sequins-saree",
+    "price": 4999,
+    "priceId": "price_1PDSOoP8pYj9qQ7tIgjK0lMn",
+    "description": "Ready for the spotlight? This dazzling black georgette saree is fully covered in shimmering gold sequins, ensuring you'll turn heads.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 29,
+    "name": "Coral Pink Kota Doria Saree",
+    "slug": "coral-pink-kota-doria-saree",
+    "price": 2699,
+    "priceId": "price_1PDSPnP8pYj9qQ7tOmjK2rSt",
+    "description": "Lightweight and breathable, this Kota Doria saree from Rajasthan in a lovely coral pink is perfect for warm weather. It features the characteristic square-check pattern.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 30,
+    "name": "Ivory and Red Garad Silk Saree",
+    "slug": "ivory-red-garad-silk-saree",
+    "price": 5299,
+    "priceId": "price_1PDSQlP8pYj9qQ7tUqvX5yZa",
+    "description": "A traditional Garad silk saree from Bengal, with a stark ivory body and a rich red border and pallu. Often worn during religious ceremonies.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 31,
+    "name": "Turquoise Blue Mysore Silk Saree",
+    "slug": "turquoise-blue-mysore-silk-saree",
+    "price": 7299,
+    "priceId": "price_1PDSRjP8pYj9qQ7tWtxY8zAb",
+    "description": "Known for its shine and durability, this Mysore silk saree in a stunning turquoise blue features a solid gold zari border, exuding pure elegance.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 32,
+    "name": "Sunshine Yellow Leheriya Saree",
+    "slug": "sunshine-yellow-leheriya-saree",
+    "price": 3199,
+    "priceId": "price_1PDSSfP8pYj9qQ7tDtjK0fGh",
+    "description": "Brighten up any day with this chiffon Leheriya saree from Rajasthan. The wave-like tie-dye patterns in sunshine yellow are cheerful and vibrant.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 33,
+    "name": "Pistachio Green Silk Cotton Saree",
+    "slug": "pistachio-green-silk-cotton-saree",
+    "price": 2999,
+    "priceId": "price_1PDSTdP8pYj9qQ7tIhjK3lMn",
+    "description": "A comfortable blend of silk and cotton, this saree in a soft pistachio green is perfect for daily wear. It features a simple thread-work border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 34,
+    "name": "Grey and Pink Dual-Tone Saree",
+    "slug": "grey-pink-dual-tone-saree",
+    "price": 4399,
+    "priceId": "price_1PDSUbP8pYj9qQ7tOnjK6rSt",
+    "description": "A contemporary soft silk saree featuring a dual-tone effect of grey and pink. The colors shift and play with the light, creating a unique look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 35,
+    "name": "Maroon and Gold Korial Saree",
+    "slug": "maroon-gold-korial-saree",
+    "price": 5599,
+    "priceId": "price_1PDSVZP8pYj9qQ7tUsvX9yZa",
+    "description": "Another Bengali classic, the Korial saree features a white or off-white body with a heavy gold and maroon border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 36,
+    "name": "Bright Orange Kanchi Cotton Saree",
+    "slug": "bright-orange-kanchi-cotton-saree",
+    "price": 2899,
+    "priceId": "price_1PDSWWP8pYj9qQ7tWvxY1zAb",
+    "description": "Handwoven Kanchi cotton saree in a brilliant orange, with a contrasting purple border featuring annapakshi (divine swan) motifs.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 37,
+    "name": "Indigo Blue Dabu Print Saree",
+    "slug": "indigo-blue-dabu-print-saree",
+    "price": 3499,
+    "priceId": "price_1PDSXSP8pYj9qQ7tDvkJ4fGh",
+    "description": "A beautiful cotton saree featuring the traditional Dabu mud-resist printing technique from Rajasthan, in a classic indigo blue.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 38,
+    "name": "Rose Pink Organza with Embroidery",
+    "slug": "rose-pink-organza-embroidery",
+    "price": 4699,
+    "priceId": "price_1PDSYPP8pYj9qQ7tIkjK8lMn",
+    "description": "A delicate and romantic organza saree in rose pink. It is finely embroidered with silk threads, creating a beautiful floral design.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 39,
+    "name": "Forest Green Ghicha Silk Saree",
+    "slug": "forest-green-ghicha-silk-saree",
+    "price": 4199,
+    "priceId": "price_1PDSZLP8pYj9qQ7tOqjK1rSt",
+    "description": "Ghicha silk, known for its textured feel, in a deep forest green. This saree has a natural, raw appeal and a striped pallu.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 40,
+    "name": "Black and White Kalamkari Saree",
+    "slug": "black-white-kalamkari-saree",
+    "price": 3999,
+    "priceId": "price_1PDSaIP8pYj9qQ7tUxvX4yZa",
+    "description": "A stunning cotton saree hand-painted with Kalamkari art, depicting mythological stories in a striking black and white palette.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 41,
+    "name": "Electric Blue Sequin Net Saree",
+    "slug": "electric-blue-sequin-net-saree",
+    "price": 5200,
+    "priceId": "price_1PDSbFP8pYj9qQ7tWzxY7zAb",
+    "description": "Make a bold statement with this electric blue net saree, embellished with countless sequins for a glamorous, party-ready look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 42,
+    "name": "Cream Tussar Saree with Madhubani Art",
+    "slug": "cream-tussar-madhubani-art-saree",
+    "price": 6800,
+    "priceId": "price_1PDScBP8pYj9qQ7tDxjK0fGh",
+    "description": "A sophisticated cream Tussar silk saree, with its pallu hand-painted with intricate Madhubani art from Bihar.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "cream saree"
+  },
+  {
+    "id": 43,
+    "name": "Hot Pink and Orange Kanjivaram Saree",
+    "slug": "hot-pink-orange-kanjivaram-saree",
+    "price": 8500,
+    "priceId": "price_1PDSczP8pYj9qQ7tImjK7lMn",
+    "description": "A vibrant Kanjivaram silk saree with a hot pink body and a contrasting orange border and pallu, featuring traditional gold zari motifs.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 44,
+    "name": "Steel Grey Chiffon Saree with Pearls",
+    "slug": "steel-grey-chiffon-pearl-saree",
+    "price": 3300,
+    "priceId": "price_1PDSeXP8pYj9qQ7tOrjK3rSt",
+    "description": "A chic and modern chiffon saree in a steel grey color, delicately bordered with small, elegant pearls.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 45,
+    "name": "Parrot Green Banarasi Saree",
+    "slug": "parrot-green-banarasi-saree",
+    "price": 5800,
+    "priceId": "price_1PDSfUP8pYj9qQ7tUzvX0yZa",
+    "description": "A bright and cheerful Banarasi silk saree in parrot green, woven with gold meenakari work for a festive touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 46,
+    "name": "Burgundy Georgette Saree",
+    "slug": "burgundy-georgette-saree",
+    "price": 3600,
+    "priceId": "price_1PDSgRP8pYj9qQ7tW1xY5zAb",
+    "description": "An elegant georgette saree in a deep burgundy shade, featuring subtle thread embroidery for a refined look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "burgundy saree"
+  },
+  {
+    "id": 47,
+    "name": "Ochre Yellow Muga Silk Saree",
+    "slug": "ochre-yellow-muga-silk-saree",
+    "price": 15000,
+    "priceId": "price_1PDShQP8pYj9qQ7tD1jK4fGh",
+    "description": "A rare and luxurious Muga silk saree from Assam, known for its natural golden sheen and durability. A timeless investment.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 48,
+    "name": "Lilac Purple Chanderi Silk Saree",
+    "slug": "lilac-purple-chanderi-silk-saree",
+    "price": 3900,
+    "priceId": "price_1PDSiNP8pYj9qQ7tIqjK9lMn",
+    "description": "A beautiful Chanderi silk saree in a soft lilac purple, with gold and silver butis scattered across the body.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 49,
+    "name": "Classic Red and White Tant Saree",
+    "slug": "red-white-tant-saree",
+    "price": 1800,
+    "priceId": "price_1PDSjKP8pYj9qQ7tOyjK7rSt",
+    "description": "The quintessential Bengali cotton Tant saree, with a crisp white body and a vibrant red border. Lightweight and perfect for hot climates.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 50,
+    "name": "Olive Green Printed Crepe Saree",
+    "slug": "olive-green-printed-crepe-saree",
+    "price": 2900,
+    "priceId": "price_1PDSkHP8pYj9qQ7tV1vX5yZa",
+    "description": "A modern crepe saree in an olive green hue, featuring abstract digital prints for a contemporary and artistic look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 51,
+    "name": "Sapphire Blue Kanjivaram",
+    "slug": "sapphire-blue-kanjivaram",
+    "price": 8200,
+    "priceId": "price_1PDSlEP8pYj9qQ7tW4xY0zAb",
+    "description": "A rich sapphire blue Kanjivaram silk saree with a contrasting pink border, woven with intricate gold zari checks.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 52,
+    "name": "Peach and Gold Banarasi Tissue Saree",
+    "slug": "peach-gold-banarasi-tissue-saree",
+    "price": 7200,
+    "priceId": "price_1PDSmAP8pYj9qQ7tD4jK0fGh",
+    "description": "A delicate and shimmering Banarasi tissue saree in a peach and gold combination, lightweight and perfect for evening soirees.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 53,
+    "name": "Crimson Red Georgette with Zari Border",
+    "slug": "crimson-red-georgette-zari-saree",
+    "price": 4100,
+    "priceId": "price_1PDSn7P8pYj9qQ7tIujK6lMn",
+    "description": "A flowing crimson red georgette saree, enhanced by a broad, ornate gold zari border for a regal touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 54,
+    "name": "Black Mysore Crepe Silk Saree",
+    "slug": "black-mysore-crepe-silk-saree",
+    "price": 6900,
+    "priceId": "price_1PDSo4P8pYj9qQ7tOxjK3rSt",
+    "description": "The epitome of elegance, this black Mysore crepe silk saree has a butter-soft texture and a slim, solid gold border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 55,
+    "name": "Sunshine Yellow Cotton Silk Saree",
+    "slug": "sunshine-yellow-cotton-silk-saree",
+    "price": 3100,
+    "priceId": "price_1PDSp1P8pYj9qQ7tV4vX9yZa",
+    "description": "A bright and sunny cotton silk saree in yellow, with a simple green border, making it ideal for festive daytime wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 56,
+    "name": "Royal Purple Banarasi Handloom Saree",
+    "slug": "royal-purple-banarasi-handloom-saree",
+    "price": 9800,
+    "priceId": "price_1PDSq0P8pYj9qQ7tW7xY3zAb",
+    "description": "A majestic handloom Banarasi saree in royal purple, featuring intricate gold zari work in a traditional paisley pattern.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 57,
+    "name": "Off-White and Pink Floral Organza Saree",
+    "slug": "off-white-pink-floral-organza-saree",
+    "price": 4300,
+    "priceId": "price_1PDSr_P8pYj9qQ7tD7jK5fGh",
+    "description": "A sheer off-white organza saree with beautiful pink floral digital prints, creating a modern and feminine aesthetic.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "white saree"
+  },
+  {
+    "id": 58,
+    "name": "Bottle Green and Maroon Sambalpuri Ikat Saree",
+    "slug": "green-maroon-sambalpuri-ikat-saree",
+    "price": 6200,
+    "priceId": "price_1PDStZP8pYj9qQ7tIzjK0lMn",
+    "description": "A traditional Sambalpuri Ikat silk saree from Odisha, in a combination of bottle green and maroon, featuring the characteristic hazy patterns.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 59,
+    "name": "Flame Orange and Red Bandhani Saree",
+    "slug": "flame-orange-red-bandhani-saree",
+    "price": 4500,
+    "priceId": "price_1PDSuWP8pYj9qQ7tO1jK7rSt",
+    "description": "A fiery combination of orange and red in a traditional Bandhani (tie-dye) georgette saree, perfect for celebrations.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 60,
+    "name": "Light Blue Linen Saree with Silver Zari",
+    "slug": "light-blue-linen-silver-zari-saree",
+    "price": 3300,
+    "priceId": "price_1PDSvTP8pYj9qQ7tV7vX3yZa",
+    "description": "A soothing light blue linen saree, accented with a shimmering silver zari border for a touch of understated elegance.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 61,
+    "name": "Ivory White and Gold Korial Silk Saree",
+    "slug": "ivory-white-gold-korial-silk-saree",
+    "price": 5700,
+    "priceId": "price_1PDSwQP8pYj9qQ7tWaxY6zAb",
+    "description": "The epitome of Bengali grace, this Korial silk saree has a pure ivory white body and a rich, traditional gold border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "white saree"
+  },
+  {
+    "id": 62,
+    "name": "Pastel Pink Georgette Saree",
+    "slug": "pastel-pink-georgette-saree",
+    "price": 3400,
+    "priceId": "price_1PDSxNP8pYj9qQ7tDajK0fGh",
+    "description": "A soft and feminine pastel pink georgette saree, with a delicate lace border, perfect for daytime events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 63,
+    "name": "Turquoise and Silver Chanderi Saree",
+    "slug": "turquoise-silver-chanderi-saree",
+    "price": 4000,
+    "priceId": "price_1PDSyKP8pYj9qQ7tI1jK3lMn",
+    "description": "A stunning turquoise Chanderi silk-cotton saree with elegant silver zari butis, combining tradition with a modern color palette.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "turquoise saree"
+  },
+  {
+    "id": 64,
+    "name": "Deep Wine Velvet Saree with Embroidery",
+    "slug": "deep-wine-velvet-embroidery-saree",
+    "price": 8000,
+    "priceId": "price_1PDSzGP8pYj9qQ7tO4jK9rSt",
+    "description": "A luxurious deep wine velvet saree, heavily embroidered with intricate threadwork and sequins, ideal for grand evening functions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "wine saree"
+  },
+  {
+    "id": 65,
+    "name": "Mustard and Black Ikkat Cotton Saree",
+    "slug": "mustard-black-ikkat-cotton-saree",
+    "price": 3600,
+    "priceId": "price_1PDT0CP8pYj9qQ7tVavX8yZa",
+    "description": "A handwoven cotton saree from Telangana, featuring bold mustard and black Ikkat patterns for a striking, ethnic look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "mustard saree"
+  },
+  {
+    "id": 66,
+    "name": "Teal and Gold Banarasi Silk Lehenga Saree",
+    "slug": "teal-gold-banarasi-lehenga-saree",
+    "price": 11000,
+    "priceId": "price_1PDT18P8pYj9qQ7tWdxY0zAb",
+    "description": "A pre-stitched lehenga saree in teal Banarasi silk, with a magnificent gold zari border and pallu, offering convenience and grandeur.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 67,
+    "name": "Seafoam Green Chiffon Saree",
+    "slug": "seafoam-green-chiffon-saree",
+    "price": 3000,
+    "priceId": "price_1PDT25P8pYj9qQ7tDdjK4fGh",
+    "description": "A light and airy chiffon saree in a refreshing seafoam green, with a simple satin border for a clean, elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 68,
+    "name": "Royal Blue and Pink Kanjivaram Half Saree",
+    "slug": "blue-pink-kanjivaram-half-saree",
+    "price": 8800,
+    "priceId": "price_1PDT32P8pYj9qQ7tI4jK8lMn",
+    "description": "A traditional South Indian half saree (Langa Voni) set in royal blue and pink Kanjivaram silk, perfect for young women.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 69,
+    "name": "Black and Red Tussar Silk Saree",
+    "slug": "black-red-tussar-silk-saree",
+    "price": 5000,
+    "priceId": "price_1PDT40P8pYj9qQ7tO7jK1rSt",
+    "description": "A classic combination of black and red on a textured Tussar silk base, with traditional tribal motifs painted on the pallu.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 70,
+    "name": "Lemon Yellow Organza Saree",
+    "slug": "lemon-yellow-organza-saree",
+    "price": 3800,
+    "priceId": "price_1PDT5wP8pYj9qQ7tVdvX4yZa",
+    "description": "A crisp and sheer organza saree in a zesty lemon yellow, with delicate white thread embroidery for a fresh, summery feel.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 71,
+    "name": "Emerald Green Velvet Saree",
+    "slug": "emerald-green-velvet-saree",
+    "price": 7800,
+    "priceId": "price_1PDT6vP8pYj9qQ7tWhxY7zAb",
+    "description": "A regal emerald green velvet saree with a scalloped border, embellished with crystals for a touch of sparkle.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 72,
+    "name": "Peach and Silver Net Saree",
+    "slug": "peach-silver-net-saree",
+    "price": 4800,
+    "priceId": "price_1PDT7uP8pYj9qQ7tDgjK0fGh",
+    "description": "A dreamy peach net saree, intricately embroidered with silver thread and sequins for a sophisticated party look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 73,
+    "name": "Maroon and Beige Kalamkari Silk Saree",
+    "slug": "maroon-beige-kalamkari-silk-saree",
+    "price": 6500,
+    "priceId": "price_1PDT8tP8pYj9qQ7tI7jK3lMn",
+    "description": "A beautiful silk saree featuring hand-painted Kalamkari art in maroon and beige, depicting scenes from the Ramayana.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 74,
+    "name": "Indigo and White Shibori Saree",
+    "slug": "indigo-white-shibori-saree",
+    "price": 3700,
+    "priceId": "price_1PDT9sP8pYj9qQ7tOajK9rSt",
+    "description": "A crepe saree with beautiful Shibori tie-dye patterns in indigo and white, offering a unique and artistic flair.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 75,
+    "name": "Coral and Gold Tissue Saree",
+    "slug": "coral-gold-tissue-saree",
+    "price": 6800,
+    "priceId": "price_1PDTarP8pYj9qQ7tVgvX0yZa",
+    "description": "A lightweight and lustrous tissue saree in a stunning coral and gold weave, perfect for making a subtle yet grand statement.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "coral saree"
+  },
+  {
+    "id": 76,
+    "name": "Deep Green Kanjivaram with Red Border",
+    "slug": "deep-green-kanjivaram-red-border",
+    "price": 9200,
+    "priceId": "price_1PDTbPP8pYj9qQ7tWkxY4zAb",
+    "description": "A classic Kanjivaram silk saree in deep green, contrasted with a striking red and gold temple border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 77,
+    "name": "Light Pink Chiffon Saree with Floral Print",
+    "slug": "light-pink-chiffon-floral-saree",
+    "price": 3200,
+    "priceId": "price_1PDTcMP8pYj9qQ7tDkjK8fGh",
+    "description": "A breezy and romantic light pink chiffon saree, adorned with delicate floral prints for a fresh and feminine look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 78,
+    "name": "Grey and Yellow Tussar Silk Saree",
+    "slug": "grey-yellow-tussar-silk-saree",
+    "price": 5300,
+    "priceId": "price_1PDTdKP8pYj9qQ7tIajK6lMn",
+    "description": "An unusual and elegant combination of grey and yellow on a textured Tussar silk base, with geometric block prints.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 79,
+    "name": "Navy Blue and Gold Banarasi Georgette Saree",
+    "slug": "navy-blue-gold-banarasi-georgette-saree",
+    "price": 7000,
+    "priceId": "price_1PDTeHP8pYj9qQ7tOdjK2rSt",
+    "description": "A lightweight Banarasi georgette saree in navy blue, featuring all-over gold zari butis and a heavy pallu.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 80,
+    "name": "Bright Pink and Green Kanchi Cotton",
+    "slug": "bright-pink-green-kanchi-cotton",
+    "price": 3500,
+    "priceId": "price_1PDTfFP8pYj9qQ7tVkvX5yZa",
+    "description": "A vibrant handwoven Kanchi cotton saree in bright pink with a contrasting green border, featuring peacock motifs.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 81,
+    "name": "Classic Maroon Banarasi Saree",
+    "slug": "classic-maroon-banarasi-saree",
+    "price": 6300,
+    "priceId": "price_1PDTgCP8pYj9qQ7tWoxY9zAb",
+    "description": "A timeless maroon Banarasi silk saree with intricate gold zari work, a must-have for every bridal trousseau.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 82,
+    "name": "Pastel Blue Organza with Pearl Work",
+    "slug": "pastel-blue-organza-pearl-saree",
+    "price": 4700,
+    "priceId": "price_1PDTh9P8pYj9qQ7tDojK2fGh",
+    "description": "A dreamy pastel blue organza saree, delicately embellished with scattered pearls for a touch of ethereal charm.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 83,
+    "name": "Black and Silver Sequined Georgette Saree",
+    "slug": "black-silver-sequined-georgette-saree",
+    "price": 5400,
+    "priceId": "price_1PDTi6P8pYj9qQ7tIdjK6lMn",
+    "description": "A glamorous black georgette saree, adorned with shimmering silver sequins for a dazzling cocktail party look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 84,
+    "name": "Cream and Red Baluchari Silk Saree",
+    "slug": "cream-red-baluchari-silk-saree",
     "price": 7500,
-    "priceId": "price_1PaYw0Rp8gGvF8aJh6k7l8m9",
-    "description": "Perfect for daily wear and office settings, this pastel cotton saree offers unparalleled comfort and breathability. It has a simple, elegant design with a striped pallu and a thin zari border, combining traditional aesthetics with contemporary style.",
-    "imageUrl": "https://placehold.co/600x800/D8BFD8/333333.png",
-    "data-ai-hint": "saree simple"
+    "priceId": "price_1PDTj4P8pYj9qQ7tOgjK0rSt",
+    "description": "A traditional Baluchari silk saree from Bengal, with a cream body and a red pallu woven with mythological narratives.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "cream saree"
+  },
+  {
+    "id": 85,
+    "name": "Yellow Chiffon Leheriya Saree",
+    "slug": "yellow-chiffon-leheriya-saree",
+    "price": 3400,
+    "priceId": "price_1PDTk2P8pYj9qQ7tVpvX9yZa",
+    "description": "A vibrant yellow chiffon saree with traditional Rajasthani leheriya (wave) patterns, perfect for a sunny day.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 86,
+    "name": "Purple and Gold Kanjivaram Saree",
+    "slug": "purple-gold-kanjivaram-saree",
+    "price": 9000,
+    "priceId": "price_1PDTl0P8pYj9qQ7tWtxY0zAb",
+    "description": "A regal purple Kanjivaram silk saree with a magnificent gold zari border and pallu, featuring annapakshi motifs.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 87,
+    "name": "Mint Green and Silver Tissue Saree",
+    "slug": "mint-green-silver-tissue-saree",
+    "price": 6600,
+    "priceId": "price_1PDTlyP8pYj9qQ7tDqjK6fGh",
+    "description": "A shimmering mint green tissue saree, woven with silver threads for a cool, contemporary, and glamorous look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 88,
+    "name": "Red and White Printed Satin Saree",
+    "slug": "red-white-printed-satin-saree",
+    "price": 3800,
+    "priceId": "price_1PDTmvP8pYj9qQ7tIjjK0lMn",
+    "description": "A smooth satin saree with bold red and white abstract prints, perfect for a modern and chic statement.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 89,
+    "name": "Teal Blue Raw Silk Saree",
+    "slug": "teal-blue-raw-silk-saree",
+    "price": 5100,
+    "priceId": "price_1PDTntP8pYj9qQ7tOjjK5rSt",
+    "description": "A rich teal blue raw silk saree with a natural slub texture, complemented by a simple, elegant gold border.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 90,
+    "name": "Beige and Black Block-Printed Cotton Saree",
+    "slug": "beige-black-block-printed-cotton-saree",
+    "price": 2800,
+    "priceId": "price_1PDToqP8pYj9qQ7tVsvX2yZa",
+    "description": "A soft cotton saree in beige, featuring traditional hand block prints in black for a classic, earthy appeal.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "beige saree"
+  },
+  {
+    "id": 91,
+    "name": "Magenta Pink Banarasi Georgette Saree",
+    "slug": "magenta-pink-banarasi-georgette-saree",
+    "price": 7300,
+    "priceId": "price_1PDTpoP8pYj9qQ7tWxxY7zAb",
+    "description": "A lightweight magenta pink Banarasi georgette saree with all-over silver zari work, combining comfort with opulence.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 92,
+    "name": "Sky Blue Chiffon with Mirror Work",
+    "slug": "sky-blue-chiffon-mirror-work-saree",
+    "price": 4200,
+    "priceId": "price_1PDTqnP8pYj9qQ7tDrjK0fGh",
+    "description": "A breezy sky blue chiffon saree, adorned with delicate mirror work along the border for a touch of Rajasthani charm.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 93,
+    "name": "Golden Yellow and Red Paithani Saree",
+    "slug": "golden-yellow-red-paithani-saree",
+    "price": 10500,
+    "priceId": "price_1PDTrlP8pYj9qQ7tIkjK4lMn",
+    "description": "A traditional Maharashtrian Paithani saree in golden yellow with a red border, featuring a magnificent peacock motif on the pallu.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 94,
+    "name": "Charcoal Grey and Silver Net Saree",
+    "slug": "charcoal-grey-silver-net-saree",
+    "price": 5600,
+    "priceId": "price_1PDTsjP8pYj9qQ7tOljK9rSt",
+    "description": "A sophisticated charcoal grey net saree, elegantly embroidered with silver thread and stones for a chic evening look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 95,
+    "name": "Orange and Pink Half and Half Saree",
+    "slug": "orange-pink-half-half-saree",
+    "price": 4000,
+    "priceId": "price_1PDTthP8pYj9qQ7tVvvX8yZa",
+    "description": "A vibrant half and half art silk saree, with the pleats in orange and the pallu in pink, creating a fun and festive look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 96,
+    "name": "Bottle Green Silk Saree",
+    "slug": "bottle-green-silk-saree",
+    "price": 5500,
+    "priceId": "price_1PDTufP8pYj9qQ7tW1yY0zAb",
+    "description": "A rich bottle green silk saree with a contrasting gold border, embodying classic elegance and grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 97,
+    "name": "White Chikankari Georgette Saree",
+    "slug": "white-chikankari-georgette-saree",
+    "price": 6000,
+    "priceId": "price_1PDTvdP8pYj9qQ7tDsjK5fGh",
+    "description": "An ethereal white georgette saree, showcasing intricate Lucknowi Chikankari hand-embroidery all over.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "white saree"
+  },
+  {
+    "id": 98,
+    "name": "Royal Blue Velvet Saree with Zardosi Work",
+    "slug": "royal-blue-velvet-zardosi-saree",
+    "price": 8500,
+    "priceId": "price_1PDTwbP8pYj9qQ7tIljK9lMn",
+    "description": "A majestic royal blue velvet saree, heavily embellished with traditional zardosi embroidery for a truly regal look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 99,
+    "name": "Red and Gold Brocade Saree",
+    "slug": "red-gold-brocade-saree",
+    "price": 7800,
+    "priceId": "price_1PDTxZP8pYj9qQ7tOmjK3rSt",
+    "description": "A stunning red brocade saree, woven with intricate gold zari floral patterns, perfect for weddings and grand celebrations.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 100,
+    "name": "Light Green and Pink Linen Saree",
+    "slug": "light-green-pink-linen-saree",
+    "price": 3700,
+    "priceId": "price_1PDTyWP8pYj9qQ7tVzvX4yZa",
+    "description": "A refreshing light green linen saree with a contrasting pink border, offering a comfortable and chic option for summer.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 101,
+    "name": "Aqua Blue Organza Saree",
+    "slug": "aqua-blue-organza-saree",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW4yY8zAb",
+    "description": "A delicate aqua blue organza saree with silver thread work, perfect for a subtle and elegant statement.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 102,
+    "name": "Sunshine Yellow Georgette Saree",
+    "slug": "sunshine-yellow-georgette-saree",
+    "price": 3500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW5yY8zAc",
+    "description": "A bright and cheerful sunshine yellow georgette saree, perfect for daytime festivities and casual wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 103,
+    "name": "Ruby Red Silk Saree",
+    "slug": "ruby-red-silk-saree",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW6yY8zAd",
+    "description": "A luxurious ruby red silk saree with a traditional gold border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 104,
+    "name": "Lavender Purple Chiffon Saree",
+    "slug": "lavender-purple-chiffon-saree",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW7yY8zAe",
+    "description": "A soft and feminine lavender purple chiffon saree, with a delicate lace border for a romantic touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 105,
+    "name": "Teal Blue and Gold Silk Saree",
+    "slug": "teal-blue-gold-silk-saree",
+    "price": 5800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW8yY8zAf",
+    "description": "A stunning teal blue silk saree with a rich gold border, perfect for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 106,
+    "name": "Coral Pink Organza Saree",
+    "slug": "coral-pink-organza-saree",
+    "price": 4000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW9yY8zAg",
+    "description": "A vibrant coral pink organza saree with delicate embroidery, offering a fresh and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 107,
+    "name": "Midnight Blue Velvet Saree",
+    "slug": "midnight-blue-velvet-saree",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW10yY8zAh",
+    "description": "A majestic midnight blue velvet saree with intricate zardosi work, perfect for grand evening occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 108,
+    "name": "Cream and Gold Silk Saree",
+    "slug": "cream-gold-silk-saree",
+    "price": 6500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW11yY8zAi",
+    "description": "An elegant cream silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "cream saree"
+  },
+  {
+    "id": 109,
+    "name": "Forest Green and Maroon Silk Saree",
+    "slug": "forest-green-maroon-silk-saree",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW12yY8zAj",
+    "description": "A rich forest green silk saree with a contrasting maroon border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 110,
+    "name": "Bright Orange and Gold Banarasi Saree",
+    "slug": "bright-orange-gold-banarasi-saree",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW13yY8zAk",
+    "description": "A vibrant bright orange Banarasi silk saree with intricate gold zari work, ideal for weddings and celebrations.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 111,
+    "name": "Peach Georgette Saree",
+    "slug": "peach-georgette-saree",
+    "price": 3600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW14yY8zAl",
+    "description": "A soft and feminine peach georgette saree with a delicate embroidered border, perfect for daytime events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 112,
+    "name": "Royal Purple and Gold Silk Saree",
+    "slug": "royal-purple-gold-silk-saree",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW15yY8zAm",
+    "description": "A majestic royal purple silk saree with a grand gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 113,
+    "name": "Black and Silver Georgette Saree",
+    "slug": "black-silver-georgette-saree",
+    "price": 4500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW16yY8zAn",
+    "description": "A glamorous black georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 114,
+    "name": "Pastel Green and Gold Silk Saree",
+    "slug": "pastel-green-gold-silk-saree",
+    "price": 5500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW17yY8zAo",
+    "description": "A soothing pastel green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 115,
+    "name": "Deep Red and Gold Banarasi Saree",
+    "slug": "deep-red-gold-banarasi-saree",
+    "price": 7800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW18yY8zAp",
+    "description": "A classic deep red Banarasi silk saree with intricate gold zari work, a timeless choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 116,
+    "name": "Light Blue and Silver Chiffon Saree",
+    "slug": "light-blue-silver-chiffon-saree",
+    "price": 3400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW19yY8zAq",
+    "description": "A breezy light blue chiffon saree with a delicate silver border, perfect for a subtle and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 117,
+    "name": "Golden Yellow Silk Saree",
+    "slug": "golden-yellow-silk-saree",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW20yY8zAr",
+    "description": "A bright and sunny golden yellow silk saree with a contrasting red border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 118,
+    "name": "Wine Purple Georgette Saree",
+    "slug": "wine-purple-georgette-saree",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW21yY8zAs",
+    "description": "An elegant wine purple georgette saree with a subtle embroidered border, perfect for evening events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 119,
+    "name": "Turquoise Blue Silk Saree",
+    "slug": "turquoise-blue-silk-saree",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW22yY8zAt",
+    "description": "A stunning turquoise blue silk saree with a rich gold border, embodying grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 120,
+    "name": "Magenta Pink and Gold Silk Saree",
+    "slug": "magenta-pink-gold-silk-saree",
+    "price": 6300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW23yY8zAu",
+    "description": "A vibrant magenta pink silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 121,
+    "name": "Emerald Green and Gold Banarasi Saree",
+    "slug": "emerald-green-gold-banarasi-saree",
+    "price": 8200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW24yY8zAv",
+    "description": "A majestic emerald green Banarasi silk saree with intricate gold zari work, a timeless classic for weddings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 122,
+    "name": "Ivory and Red Cotton Saree",
+    "slug": "ivory-red-cotton-saree",
+    "price": 2800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW25yY8zAw",
+    "description": "A classic ivory cotton saree with a traditional red border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 123,
+    "name": "Royal Blue and Silver Georgette Saree",
+    "slug": "royal-blue-silver-georgette-saree",
+    "price": 4800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW26yY8zAx",
+    "description": "A glamorous royal blue georgette saree with shimmering silver sequin work, ideal for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 124,
+    "name": "Mustard Yellow and Green Silk Saree",
+    "slug": "mustard-yellow-green-silk-saree",
+    "price": 5600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW27yY8zAy",
+    "description": "A bright mustard yellow silk saree with a contrasting green border, perfect for festive daytime wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 125,
+    "name": "Charcoal Grey and Pink Silk Saree",
+    "slug": "charcoal-grey-pink-silk-saree",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW28yY8zAz",
+    "description": "An elegant charcoal grey silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 126,
+    "name": "Fuchsia Pink and Orange Silk Saree",
+    "slug": "fuchsia-pink-orange-silk-saree",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW29yY8zA0",
+    "description": "A vibrant fuchsia pink silk saree with a contrasting orange border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 127,
+    "name": "Bottle Green and Gold Silk Saree",
+    "slug": "bottle-green-gold-silk-saree",
+    "price": 6700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW30yY8zA1",
+    "description": "A rich bottle green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 128,
+    "name": "Maroon and Gold Banarasi Silk Saree",
+    "slug": "maroon-gold-banarasi-silk-saree",
+    "price": 8500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW31yY8zA2",
+    "description": "A classic maroon Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 129,
+    "name": "Sky Blue and Pink Cotton Saree",
+    "slug": "sky-blue-pink-cotton-saree",
+    "price": 3000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW32yY8zA3",
+    "description": "A refreshing sky blue cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 130,
+    "name": "Deep Purple and Silver Silk Saree",
+    "slug": "deep-purple-silver-silk-saree",
+    "price": 6900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW33yY8zA4",
+    "description": "A majestic deep purple silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 131,
+    "name": "Burnt Orange and Gold Silk Saree",
+    "slug": "burnt-orange-gold-silk-saree",
+    "price": 6600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW34yY8zA5",
+    "description": "A warm burnt orange silk saree with a rich gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 132,
+    "name": "Light Yellow and Green Cotton Saree",
+    "slug": "light-yellow-green-cotton-saree",
+    "price": 3100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW35yY8zA6",
+    "description": "A cheerful light yellow cotton saree with a contrasting green border, ideal for daytime festivities.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 133,
+    "name": "Navy Blue and Gold Silk Saree",
+    "slug": "navy-blue-gold-silk-saree",
+    "price": 7000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW36yY8zA7",
+    "description": "An elegant navy blue silk saree with a grand gold border, perfect for weddings and special occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 134,
+    "name": "Hot Pink and Gold Banarasi Silk Saree",
+    "slug": "hot-pink-gold-banarasi-silk-saree",
+    "price": 8800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW37yY8zA8",
+    "description": "A vibrant hot pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 135,
+    "name": "Sea Green and Silver Georgette Saree",
+    "slug": "sea-green-silver-georgette-saree",
+    "price": 4900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW38yY8zA9",
+    "description": "A refreshing sea green georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 136,
+    "name": "Classic Black and Gold Silk Saree",
+    "slug": "classic-black-gold-silk-saree",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW39yY8zB0",
+    "description": "An timeless classic, this black silk saree features a rich gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 137,
+    "name": "Peach and Gold Silk Saree",
+    "slug": "peach-gold-silk-saree",
+    "price": 6100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW40yY8zB1",
+    "description": "A soft and feminine peach silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 138,
+    "name": "Crimson Red and Gold Silk Saree",
+    "slug": "crimson-red-gold-silk-saree",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW41yY8zB2",
+    "description": "A luxurious crimson red silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 139,
+    "name": "Lavender and Silver Silk Saree",
+    "slug": "lavender-silver-silk-saree",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW42yY8zB3",
+    "description": "A soft and feminine lavender silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "lavender saree"
+  },
+  {
+    "id": 140,
+    "name": "Teal and Gold Banarasi Silk Saree",
+    "slug": "teal-gold-banarasi-silk-saree",
+    "price": 9000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW43yY8zB4",
+    "description": "A stunning teal Banarasi silk saree with intricate gold zari work, a timeless classic for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 141,
+    "name": "Ivory and Gold Silk Saree",
+    "slug": "ivory-gold-silk-saree",
+    "price": 7100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW44yY8zB5",
+    "description": "An elegant ivory silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 142,
+    "name": "Royal Blue and Gold Banarasi Silk Saree",
+    "slug": "royal-blue-gold-banarasi-silk-saree",
+    "price": 9200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW45yY8zB6",
+    "description": "A majestic royal blue Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 143,
+    "name": "Sunshine Yellow and Pink Cotton Saree",
+    "slug": "sunshine-yellow-pink-cotton-saree",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW46yY8zB7",
+    "description": "A cheerful sunshine yellow cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 144,
+    "name": "Forest Green and Gold Silk Saree",
+    "slug": "forest-green-gold-silk-saree",
+    "price": 7300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW47yY8zB8",
+    "description": "A rich forest green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 145,
+    "name": "Bright Orange and Pink Silk Saree",
+    "slug": "bright-orange-pink-silk-saree",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW48yY8zB9",
+    "description": "A vibrant bright orange silk saree with a contrasting pink border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 146,
+    "name": "Deep Maroon and Gold Silk Saree",
+    "slug": "deep-maroon-gold-silk-saree",
+    "price": 7600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW49yY8zC0",
+    "description": "A luxurious deep maroon silk saree with a grand gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 147,
+    "name": "Light Green and Gold Silk Saree",
+    "slug": "light-green-gold-silk-saree",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW50yY8zC1",
+    "description": "A soothing light green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 148,
+    "name": "Navy Blue and Pink Silk Saree",
+    "slug": "navy-blue-pink-silk-saree",
+    "price": 7400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW51yY8zC2",
+    "description": "An elegant navy blue silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 149,
+    "name": "Fuchsia Pink and Gold Banarasi Silk Saree",
+    "slug": "fuchsia-pink-gold-banarasi-silk-saree",
+    "price": 9400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW52yY8zC3",
+    "description": "A vibrant fuchsia pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 150,
+    "name": "Bottle Green and Red Silk Saree",
+    "slug": "bottle-green-red-silk-saree",
+    "price": 7700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW53yY8zC4",
+    "description": "A rich bottle green silk saree with a contrasting red border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 151,
+    "name": "Aqua Blue Organza Saree",
+    "slug": "aqua-blue-organza-saree-151",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW4yY8zAb",
+    "description": "A delicate aqua blue organza saree with silver thread work, perfect for a subtle and elegant statement.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 152,
+    "name": "Sunshine Yellow Georgette Saree",
+    "slug": "sunshine-yellow-georgette-saree-152",
+    "price": 3500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW5yY8zAc",
+    "description": "A bright and cheerful sunshine yellow georgette saree, perfect for daytime festivities and casual wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 153,
+    "name": "Ruby Red Silk Saree",
+    "slug": "ruby-red-silk-saree-153",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW6yY8zAd",
+    "description": "A luxurious ruby red silk saree with a traditional gold border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 154,
+    "name": "Lavender Purple Chiffon Saree",
+    "slug": "lavender-purple-chiffon-saree-154",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW7yY8zAe",
+    "description": "A soft and feminine lavender purple chiffon saree, with a delicate lace border for a romantic touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 155,
+    "name": "Teal Blue and Gold Silk Saree",
+    "slug": "teal-blue-gold-silk-saree-155",
+    "price": 5800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW8yY8zAf",
+    "description": "A stunning teal blue silk saree with a rich gold border, perfect for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 156,
+    "name": "Coral Pink Organza Saree",
+    "slug": "coral-pink-organza-saree-156",
+    "price": 4000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW9yY8zAg",
+    "description": "A vibrant coral pink organza saree with delicate embroidery, offering a fresh and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 157,
+    "name": "Midnight Blue Velvet Saree",
+    "slug": "midnight-blue-velvet-saree-157",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW10yY8zAh",
+    "description": "A majestic midnight blue velvet saree with intricate zardosi work, perfect for grand evening occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 158,
+    "name": "Cream and Gold Silk Saree",
+    "slug": "cream-gold-silk-saree-158",
+    "price": 6500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW11yY8zAi",
+    "description": "An elegant cream silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "cream saree"
+  },
+  {
+    "id": 159,
+    "name": "Forest Green and Maroon Silk Saree",
+    "slug": "forest-green-maroon-silk-saree-159",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW12yY8zAj",
+    "description": "A rich forest green silk saree with a contrasting maroon border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 160,
+    "name": "Bright Orange and Gold Banarasi Saree",
+    "slug": "bright-orange-gold-banarasi-saree-160",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW13yY8zAk",
+    "description": "A vibrant bright orange Banarasi silk saree with intricate gold zari work, ideal for weddings and celebrations.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 161,
+    "name": "Peach Georgette Saree",
+    "slug": "peach-georgette-saree-161",
+    "price": 3600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW14yY8zAl",
+    "description": "A soft and feminine peach georgette saree with a delicate embroidered border, perfect for daytime events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 162,
+    "name": "Royal Purple and Gold Silk Saree",
+    "slug": "royal-purple-gold-silk-saree-162",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW15yY8zAm",
+    "description": "A majestic royal purple silk saree with a grand gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 163,
+    "name": "Black and Silver Georgette Saree",
+    "slug": "black-silver-georgette-saree-163",
+    "price": 4500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW16yY8zAn",
+    "description": "A glamorous black georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 164,
+    "name": "Pastel Green and Gold Silk Saree",
+    "slug": "pastel-green-gold-silk-saree-164",
+    "price": 5500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW17yY8zAo",
+    "description": "A soothing pastel green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 165,
+    "name": "Deep Red and Gold Banarasi Saree",
+    "slug": "deep-red-gold-banarasi-saree-165",
+    "price": 7800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW18yY8zAp",
+    "description": "A classic deep red Banarasi silk saree with intricate gold zari work, a timeless choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 166,
+    "name": "Light Blue and Silver Chiffon Saree",
+    "slug": "light-blue-silver-chiffon-saree-166",
+    "price": 3400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW19yY8zAq",
+    "description": "A breezy light blue chiffon saree with a delicate silver border, perfect for a subtle and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 167,
+    "name": "Golden Yellow Silk Saree",
+    "slug": "golden-yellow-silk-saree-167",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW20yY8zAr",
+    "description": "A bright and sunny golden yellow silk saree with a contrasting red border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 168,
+    "name": "Wine Purple Georgette Saree",
+    "slug": "wine-purple-georgette-saree-168",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW21yY8zAs",
+    "description": "An elegant wine purple georgette saree with a subtle embroidered border, perfect for evening events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 169,
+    "name": "Turquoise Blue Silk Saree",
+    "slug": "turquoise-blue-silk-saree-169",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW22yY8zAt",
+    "description": "A stunning turquoise blue silk saree with a rich gold border, embodying grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 170,
+    "name": "Magenta Pink and Gold Silk Saree",
+    "slug": "magenta-pink-gold-silk-saree-170",
+    "price": 6300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW23yY8zAu",
+    "description": "A vibrant magenta pink silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 171,
+    "name": "Emerald Green and Gold Banarasi Saree",
+    "slug": "emerald-green-gold-banarasi-saree-171",
+    "price": 8200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW24yY8zAv",
+    "description": "A majestic emerald green Banarasi silk saree with intricate gold zari work, a timeless classic for weddings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 172,
+    "name": "Ivory and Red Cotton Saree",
+    "slug": "ivory-red-cotton-saree-172",
+    "price": 2800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW25yY8zAw",
+    "description": "A classic ivory cotton saree with a traditional red border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 173,
+    "name": "Royal Blue and Silver Georgette Saree",
+    "slug": "royal-blue-silver-georgette-saree-173",
+    "price": 4800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW26yY8zAx",
+    "description": "A glamorous royal blue georgette saree with shimmering silver sequin work, ideal for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 174,
+    "name": "Mustard Yellow and Green Silk Saree",
+    "slug": "mustard-yellow-green-silk-saree-174",
+    "price": 5600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW27yY8zAy",
+    "description": "A bright mustard yellow silk saree with a contrasting green border, perfect for festive daytime wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 175,
+    "name": "Charcoal Grey and Pink Silk Saree",
+    "slug": "charcoal-grey-pink-silk-saree-175",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW28yY8zAz",
+    "description": "An elegant charcoal grey silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 176,
+    "name": "Fuchsia Pink and Orange Silk Saree",
+    "slug": "fuchsia-pink-orange-silk-saree-176",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW29yY8zA0",
+    "description": "A vibrant fuchsia pink silk saree with a contrasting orange border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 177,
+    "name": "Bottle Green and Gold Silk Saree",
+    "slug": "bottle-green-gold-silk-saree-177",
+    "price": 6700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW30yY8zA1",
+    "description": "A rich bottle green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 178,
+    "name": "Maroon and Gold Banarasi Silk Saree",
+    "slug": "maroon-gold-banarasi-silk-saree-178",
+    "price": 8500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW31yY8zA2",
+    "description": "A classic maroon Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 179,
+    "name": "Sky Blue and Pink Cotton Saree",
+    "slug": "sky-blue-pink-cotton-saree-179",
+    "price": 3000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW32yY8zA3",
+    "description": "A refreshing sky blue cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 180,
+    "name": "Deep Purple and Silver Silk Saree",
+    "slug": "deep-purple-silver-silk-saree-180",
+    "price": 6900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW33yY8zA4",
+    "description": "A majestic deep purple silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 181,
+    "name": "Burnt Orange and Gold Silk Saree",
+    "slug": "burnt-orange-gold-silk-saree-181",
+    "price": 6600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW34yY8zA5",
+    "description": "A warm burnt orange silk saree with a rich gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 182,
+    "name": "Light Yellow and Green Cotton Saree",
+    "slug": "light-yellow-green-cotton-saree-182",
+    "price": 3100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW35yY8zA6",
+    "description": "A cheerful light yellow cotton saree with a contrasting green border, ideal for daytime festivities.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 183,
+    "name": "Navy Blue and Gold Silk Saree",
+    "slug": "navy-blue-gold-silk-saree-183",
+    "price": 7000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW36yY8zA7",
+    "description": "An elegant navy blue silk saree with a grand gold border, perfect for weddings and special occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 184,
+    "name": "Hot Pink and Gold Banarasi Silk Saree",
+    "slug": "hot-pink-gold-banarasi-silk-saree-184",
+    "price": 8800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW37yY8zA8",
+    "description": "A vibrant hot pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 185,
+    "name": "Sea Green and Silver Georgette Saree",
+    "slug": "sea-green-silver-georgette-saree-185",
+    "price": 4900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW38yY8zA9",
+    "description": "A refreshing sea green georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 186,
+    "name": "Classic Black and Gold Silk Saree",
+    "slug": "classic-black-gold-silk-saree-186",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW39yY8zB0",
+    "description": "An timeless classic, this black silk saree features a rich gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 187,
+    "name": "Peach and Gold Silk Saree",
+    "slug": "peach-gold-silk-saree-187",
+    "price": 6100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW40yY8zB1",
+    "description": "A soft and feminine peach silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 188,
+    "name": "Crimson Red and Gold Silk Saree",
+    "slug": "crimson-red-gold-silk-saree-188",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW41yY8zB2",
+    "description": "A luxurious crimson red silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 189,
+    "name": "Lavender and Silver Silk Saree",
+    "slug": "lavender-silver-silk-saree-189",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW42yY8zB3",
+    "description": "A soft and feminine lavender silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "lavender saree"
+  },
+  {
+    "id": 190,
+    "name": "Teal and Gold Banarasi Silk Saree",
+    "slug": "teal-gold-banarasi-silk-saree-190",
+    "price": 9000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW43yY8zB4",
+    "description": "A stunning teal Banarasi silk saree with intricate gold zari work, a timeless classic for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 191,
+    "name": "Ivory and Gold Silk Saree",
+    "slug": "ivory-gold-silk-saree-191",
+    "price": 7100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW44yY8zB5",
+    "description": "An elegant ivory silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 192,
+    "name": "Royal Blue and Gold Banarasi Silk Saree",
+    "slug": "royal-blue-gold-banarasi-silk-saree-192",
+    "price": 9200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW45yY8zB6",
+    "description": "A majestic royal blue Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 193,
+    "name": "Sunshine Yellow and Pink Cotton Saree",
+    "slug": "sunshine-yellow-pink-cotton-saree-193",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW46yY8zB7",
+    "description": "A cheerful sunshine yellow cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 194,
+    "name": "Forest Green and Gold Silk Saree",
+    "slug": "forest-green-gold-silk-saree-194",
+    "price": 7300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW47yY8zB8",
+    "description": "A rich forest green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 195,
+    "name": "Bright Orange and Pink Silk Saree",
+    "slug": "bright-orange-pink-silk-saree-195",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW48yY8zB9",
+    "description": "A vibrant bright orange silk saree with a contrasting pink border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 196,
+    "name": "Deep Maroon and Gold Silk Saree",
+    "slug": "deep-maroon-gold-silk-saree-196",
+    "price": 7600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW49yY8zC0",
+    "description": "A luxurious deep maroon silk saree with a grand gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 197,
+    "name": "Light Green and Gold Silk Saree",
+    "slug": "light-green-gold-silk-saree-197",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW50yY8zC1",
+    "description": "A soothing light green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 198,
+    "name": "Navy Blue and Pink Silk Saree",
+    "slug": "navy-blue-pink-silk-saree-198",
+    "price": 7400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW51yY8zC2",
+    "description": "An elegant navy blue silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 199,
+    "name": "Fuchsia Pink and Gold Banarasi Silk Saree",
+    "slug": "fuchsia-pink-gold-banarasi-silk-saree-199",
+    "price": 9400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW52yY8zC3",
+    "description": "A vibrant fuchsia pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 200,
+    "name": "Bottle Green and Red Silk Saree",
+    "slug": "bottle-green-red-silk-saree-200",
+    "price": 7700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW53yY8zC4",
+    "description": "A rich bottle green silk saree with a contrasting red border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 201,
+    "name": "Aqua Blue Organza Saree",
+    "slug": "aqua-blue-organza-saree-201",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW4yY8zAb",
+    "description": "A delicate aqua blue organza saree with silver thread work, perfect for a subtle and elegant statement.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 202,
+    "name": "Sunshine Yellow Georgette Saree",
+    "slug": "sunshine-yellow-georgette-saree-202",
+    "price": 3500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW5yY8zAc",
+    "description": "A bright and cheerful sunshine yellow georgette saree, perfect for daytime festivities and casual wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 203,
+    "name": "Ruby Red Silk Saree",
+    "slug": "ruby-red-silk-saree-203",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW6yY8zAd",
+    "description": "A luxurious ruby red silk saree with a traditional gold border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 204,
+    "name": "Lavender Purple Chiffon Saree",
+    "slug": "lavender-purple-chiffon-saree-204",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW7yY8zAe",
+    "description": "A soft and feminine lavender purple chiffon saree, with a delicate lace border for a romantic touch.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 205,
+    "name": "Teal Blue and Gold Silk Saree",
+    "slug": "teal-blue-gold-silk-saree-205",
+    "price": 5800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW8yY8zAf",
+    "description": "A stunning teal blue silk saree with a rich gold border, perfect for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 206,
+    "name": "Coral Pink Organza Saree",
+    "slug": "coral-pink-organza-saree-206",
+    "price": 4000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW9yY8zAg",
+    "description": "A vibrant coral pink organza saree with delicate embroidery, offering a fresh and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 207,
+    "name": "Midnight Blue Velvet Saree",
+    "slug": "midnight-blue-velvet-saree-207",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW10yY8zAh",
+    "description": "A majestic midnight blue velvet saree with intricate zardosi work, perfect for grand evening occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 208,
+    "name": "Cream and Gold Silk Saree",
+    "slug": "cream-gold-silk-saree-208",
+    "price": 6500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW11yY8zAi",
+    "description": "An elegant cream silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "cream saree"
+  },
+  {
+    "id": 209,
+    "name": "Forest Green and Maroon Silk Saree",
+    "slug": "forest-green-maroon-silk-saree-209",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW12yY8zAj",
+    "description": "A rich forest green silk saree with a contrasting maroon border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 210,
+    "name": "Bright Orange and Gold Banarasi Saree",
+    "slug": "bright-orange-gold-banarasi-saree-210",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW13yY8zAk",
+    "description": "A vibrant bright orange Banarasi silk saree with intricate gold zari work, ideal for weddings and celebrations.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 211,
+    "name": "Peach Georgette Saree",
+    "slug": "peach-georgette-saree-211",
+    "price": 3600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW14yY8zAl",
+    "description": "A soft and feminine peach georgette saree with a delicate embroidered border, perfect for daytime events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 212,
+    "name": "Royal Purple and Gold Silk Saree",
+    "slug": "royal-purple-gold-silk-saree-212",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW15yY8zAm",
+    "description": "A majestic royal purple silk saree with a grand gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 213,
+    "name": "Black and Silver Georgette Saree",
+    "slug": "black-silver-georgette-saree-213",
+    "price": 4500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW16yY8zAn",
+    "description": "A glamorous black georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 214,
+    "name": "Pastel Green and Gold Silk Saree",
+    "slug": "pastel-green-gold-silk-saree-214",
+    "price": 5500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW17yY8zAo",
+    "description": "A soothing pastel green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 215,
+    "name": "Deep Red and Gold Banarasi Saree",
+    "slug": "deep-red-gold-banarasi-saree-215",
+    "price": 7800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW18yY8zAp",
+    "description": "A classic deep red Banarasi silk saree with intricate gold zari work, a timeless choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 216,
+    "name": "Light Blue and Silver Chiffon Saree",
+    "slug": "light-blue-silver-chiffon-saree-216",
+    "price": 3400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW19yY8zAq",
+    "description": "A breezy light blue chiffon saree with a delicate silver border, perfect for a subtle and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 217,
+    "name": "Golden Yellow Silk Saree",
+    "slug": "golden-yellow-silk-saree-217",
+    "price": 6000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW20yY8zAr",
+    "description": "A bright and sunny golden yellow silk saree with a contrasting red border, ideal for festive occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 218,
+    "name": "Wine Purple Georgette Saree",
+    "slug": "wine-purple-georgette-saree-218",
+    "price": 3800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW21yY8zAs",
+    "description": "An elegant wine purple georgette saree with a subtle embroidered border, perfect for evening events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 219,
+    "name": "Turquoise Blue Silk Saree",
+    "slug": "turquoise-blue-silk-saree-219",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW22yY8zAt",
+    "description": "A stunning turquoise blue silk saree with a rich gold border, embodying grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 220,
+    "name": "Magenta Pink and Gold Silk Saree",
+    "slug": "magenta-pink-gold-silk-saree-220",
+    "price": 6300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW23yY8zAu",
+    "description": "A vibrant magenta pink silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 221,
+    "name": "Emerald Green and Gold Banarasi Saree",
+    "slug": "emerald-green-gold-banarasi-saree-221",
+    "price": 8200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW24yY8zAv",
+    "description": "A majestic emerald green Banarasi silk saree with intricate gold zari work, a timeless classic for weddings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 222,
+    "name": "Ivory and Red Cotton Saree",
+    "slug": "ivory-red-cotton-saree-222",
+    "price": 2800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW25yY8zAw",
+    "description": "A classic ivory cotton saree with a traditional red border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 223,
+    "name": "Royal Blue and Silver Georgette Saree",
+    "slug": "royal-blue-silver-georgette-saree-223",
+    "price": 4800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW26yY8zAx",
+    "description": "A glamorous royal blue georgette saree with shimmering silver sequin work, ideal for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 224,
+    "name": "Mustard Yellow and Green Silk Saree",
+    "slug": "mustard-yellow-green-silk-saree-224",
+    "price": 5600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW27yY8zAy",
+    "description": "A bright mustard yellow silk saree with a contrasting green border, perfect for festive daytime wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 225,
+    "name": "Charcoal Grey and Pink Silk Saree",
+    "slug": "charcoal-grey-pink-silk-saree-225",
+    "price": 5900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW28yY8zAz",
+    "description": "An elegant charcoal grey silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "grey saree"
+  },
+  {
+    "id": 226,
+    "name": "Fuchsia Pink and Orange Silk Saree",
+    "slug": "fuchsia-pink-orange-silk-saree-226",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW29yY8zA0",
+    "description": "A vibrant fuchsia pink silk saree with a contrasting orange border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 227,
+    "name": "Bottle Green and Gold Silk Saree",
+    "slug": "bottle-green-gold-silk-saree-227",
+    "price": 6700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW30yY8zA1",
+    "description": "A rich bottle green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 228,
+    "name": "Maroon and Gold Banarasi Silk Saree",
+    "slug": "maroon-gold-banarasi-silk-saree-228",
+    "price": 8500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW31yY8zA2",
+    "description": "A classic maroon Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 229,
+    "name": "Sky Blue and Pink Cotton Saree",
+    "slug": "sky-blue-pink-cotton-saree-229",
+    "price": 3000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW32yY8zA3",
+    "description": "A refreshing sky blue cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 230,
+    "name": "Deep Purple and Silver Silk Saree",
+    "slug": "deep-purple-silver-silk-saree-230",
+    "price": 6900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW33yY8zA4",
+    "description": "A majestic deep purple silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "purple saree"
+  },
+  {
+    "id": 231,
+    "name": "Burnt Orange and Gold Silk Saree",
+    "slug": "burnt-orange-gold-silk-saree-231",
+    "price": 6600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW34yY8zA5",
+    "description": "A warm burnt orange silk saree with a rich gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 232,
+    "name": "Light Yellow and Green Cotton Saree",
+    "slug": "light-yellow-green-cotton-saree-232",
+    "price": 3100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW35yY8zA6",
+    "description": "A cheerful light yellow cotton saree with a contrasting green border, ideal for daytime festivities.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 233,
+    "name": "Navy Blue and Gold Silk Saree",
+    "slug": "navy-blue-gold-silk-saree-233",
+    "price": 7000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW36yY8zA7",
+    "description": "An elegant navy blue silk saree with a grand gold border, perfect for weddings and special occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 234,
+    "name": "Hot Pink and Gold Banarasi Silk Saree",
+    "slug": "hot-pink-gold-banarasi-silk-saree-234",
+    "price": 8800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW37yY8zA8",
+    "description": "A vibrant hot pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 235,
+    "name": "Sea Green and Silver Georgette Saree",
+    "slug": "sea-green-silver-georgette-saree-235",
+    "price": 4900,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW38yY8zA9",
+    "description": "A refreshing sea green georgette saree with shimmering silver sequin work, perfect for evening parties.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 236,
+    "name": "Classic Black and Gold Silk Saree",
+    "slug": "classic-black-gold-silk-saree-236",
+    "price": 7200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW39yY8zB0",
+    "description": "An timeless classic, this black silk saree features a rich gold border, exuding elegance and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "black saree"
+  },
+  {
+    "id": 237,
+    "name": "Peach and Gold Silk Saree",
+    "slug": "peach-gold-silk-saree-237",
+    "price": 6100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW40yY8zB1",
+    "description": "A soft and feminine peach silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "peach saree"
+  },
+  {
+    "id": 238,
+    "name": "Crimson Red and Gold Silk Saree",
+    "slug": "crimson-red-gold-silk-saree-238",
+    "price": 7500,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW41yY8zB2",
+    "description": "A luxurious crimson red silk saree with a grand gold border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "red saree"
+  },
+  {
+    "id": 239,
+    "name": "Lavender and Silver Silk Saree",
+    "slug": "lavender-silver-silk-saree-239",
+    "price": 6400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW42yY8zB3",
+    "description": "A soft and feminine lavender silk saree with an elegant silver border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "lavender saree"
+  },
+  {
+    "id": 240,
+    "name": "Teal and Gold Banarasi Silk Saree",
+    "slug": "teal-gold-banarasi-silk-saree-240",
+    "price": 9000,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW43yY8zB4",
+    "description": "A stunning teal Banarasi silk saree with intricate gold zari work, a timeless classic for weddings and special events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "teal saree"
+  },
+  {
+    "id": 241,
+    "name": "Ivory and Gold Silk Saree",
+    "slug": "ivory-gold-silk-saree-241",
+    "price": 7100,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW44yY8zB5",
+    "description": "An elegant ivory silk saree with a classic gold border, embodying timeless grace and sophistication.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "ivory saree"
+  },
+  {
+    "id": 242,
+    "name": "Royal Blue and Gold Banarasi Silk Saree",
+    "slug": "royal-blue-gold-banarasi-silk-saree-242",
+    "price": 9200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW45yY8zB6",
+    "description": "A majestic royal blue Banarasi silk saree with intricate gold zari work, a must-have for every bridal collection.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 243,
+    "name": "Sunshine Yellow and Pink Cotton Saree",
+    "slug": "sunshine-yellow-pink-cotton-saree-243",
+    "price": 3200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW46yY8zB7",
+    "description": "A cheerful sunshine yellow cotton saree with a soft pink border, perfect for daily wear and casual outings.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "yellow saree"
+  },
+  {
+    "id": 244,
+    "name": "Forest Green and Gold Silk Saree",
+    "slug": "forest-green-gold-silk-saree-244",
+    "price": 7300,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW47yY8zB8",
+    "description": "A rich forest green silk saree with a grand gold border, exuding elegance and timeless grace.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 245,
+    "name": "Bright Orange and Pink Silk Saree",
+    "slug": "bright-orange-pink-silk-saree-245",
+    "price": 6800,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW48yY8zB9",
+    "description": "A vibrant bright orange silk saree with a contrasting pink border, perfect for festive and celebratory occasions.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "orange saree"
+  },
+  {
+    "id": 246,
+    "name": "Deep Maroon and Gold Silk Saree",
+    "slug": "deep-maroon-gold-silk-saree-246",
+    "price": 7600,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW49yY8zC0",
+    "description": "A luxurious deep maroon silk saree with a grand gold border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "maroon saree"
+  },
+  {
+    "id": 247,
+    "name": "Light Green and Gold Silk Saree",
+    "slug": "light-green-gold-silk-saree-247",
+    "price": 6200,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW50yY8zC1",
+    "description": "A soothing light green silk saree with a classic gold border, offering a fresh and elegant look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
+  },
+  {
+    "id": 248,
+    "name": "Navy Blue and Pink Silk Saree",
+    "slug": "navy-blue-pink-silk-saree-248",
+    "price": 7400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW51yY8zC2",
+    "description": "An elegant navy blue silk saree with a soft pink border, offering a sophisticated and modern look.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "blue saree"
+  },
+  {
+    "id": 249,
+    "name": "Fuchsia Pink and Gold Banarasi Silk Saree",
+    "slug": "fuchsia-pink-gold-banarasi-silk-saree-249",
+    "price": 9400,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW52yY8zC3",
+    "description": "A vibrant fuchsia pink Banarasi silk saree with intricate gold zari work, a stunning choice for bridal wear.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "pink saree"
+  },
+  {
+    "id": 250,
+    "name": "Bottle Green and Red Silk Saree",
+    "slug": "bottle-green-red-silk-saree-250",
+    "price": 7700,
+    "priceId": "price_1PDTzSP8pYj9qQ7tW53yY8zC4",
+    "description": "A rich bottle green silk saree with a contrasting red border, perfect for festive and traditional events.",
+    "imageUrl": "https://placehold.co/600x800.png",
+    "data-ai-hint": "green saree"
   }
 ]
