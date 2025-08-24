@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": 1,
+    "name": "Crimson Banarasi Silk",
+    "slug": "crimson-banarasi-silk",
+    "price": 18999,
+    "priceId": "price_1PaYtDRp8gGvF8aJzC5g6b7h",
+    "description": "A masterpiece of traditional craftsmanship, this Banarasi silk saree features intricate gold zari work on a rich crimson canvas. The pallu is heavily decorated with floral motifs, making it perfect for weddings and grand occasions. The silk is soft yet has a magnificent drape.",
+    "imageUrl": "https://placehold.co/600x800/800000/F8E8E8.png",
+    "data-ai-hint": "saree silk"
+  },
+  {
+    "id": 2,
+    "name": "Royal Kanjivaram Weave",
+    "slug": "royal-kanjivaram-weave",
+    "price": 24999,
+    "priceId": "price_1PaYuhRp8gGvF8aJyZaq0n3i",
+    "description": "Woven with pure mulberry silk, this Kanjivaram saree boasts a classic temple border and a contrasting pallu in deep navy blue. The body is adorned with subtle peacock motifs, symbolizing grace and beauty. It's a timeless addition to any heirloom collection.",
+    "imageUrl": "https://placehold.co/600x800/000080/F8E8E8.png",
+    "data-ai-hint": "saree traditional"
+  },
+  {
+    "id": 3,
+    "name": "Elegant Georgette Saree",
+    "slug": "elegant-georgette-saree",
+    "price": 9999,
+    "priceId": "price_1PaYvKRp8gGvF8aJd2m3e4f5",
+    "description": "Lightweight and flowy, this georgette saree is designed for the modern woman. It features delicate sequin work along the border and a muted gold blouse piece. Its subtle elegance makes it ideal for evening parties and festive gatherings.",
+    "imageUrl": "https://placehold.co/600x800/B8860B/FFFFFF.png",
+    "data-ai-hint": "saree fashion"
+  },
+  {
+    "id": 4,
+    "name": "Pastel Cotton Saree",
+    "slug": "pastel-cotton-saree",
+    "price": 7500,
+    "priceId": "price_1PaYw0Rp8gGvF8aJh6k7l8m9",
+    "description": "Perfect for daily wear and office settings, this pastel cotton saree offers unparalleled comfort and breathability. It has a simple, elegant design with a striped pallu and a thin zari border, combining traditional aesthetics with contemporary style.",
+    "imageUrl": "https://placehold.co/600x800/D8BFD8/333333.png",
+    "data-ai-hint": "saree simple"
+  }
+]
