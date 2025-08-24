@@ -1,7 +1,8 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, ReactNode, useMemo } from 'react';
 import type { Product } from '@/lib/products';
+import { getShippingCost } from '@/lib/shipping';
 
 // Define the shape of a cart item
 export interface CartItem extends Product {
@@ -16,6 +17,10 @@ interface CartContextType {
   clearCart: () => void;
   itemCount: number;
   total: number;
+  shippingState: string | null;
+  setShippingState: (state: string) => void;
+  shippingCost: number;
+  totalWithShipping: number;
 }
 
 // Create the context with a default undefined value
@@ -33,19 +38,32 @@ export const useCart = () => {
 // CartProvider component to wrap around parts of the app that need cart access
 export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [items, setItems] = useState<CartItem[]>([]);
+  const [shippingState, setShippingState] = useState<string | null>(null);
 
-  // Load cart from localStorage on initial render
+  // Load cart and shipping state from localStorage on initial render
   useEffect(() => {
     const savedCart = localStorage.getItem('sareeshine-cart');
     if (savedCart) {
       setItems(JSON.parse(savedCart));
     }
+    const savedState = localStorage.getItem('sareeshine-shipping-state');
+    if (savedState) {
+      setShippingState(JSON.parse(savedState));
+    }
   }, []);
 
-  // Save cart to localStorage whenever it changes
+  // Save cart and shipping state to localStorage whenever they change
   useEffect(() => {
     localStorage.setItem('sareeshine-cart', JSON.stringify(items));
   }, [items]);
+
+  useEffect(() => {
+    if (shippingState) {
+      localStorage.setItem('sareeshine-shipping-state', JSON.stringify(shippingState));
+    } else {
+      localStorage.removeItem('sareeshine-shipping-state');
+    }
+  }, [shippingState]);
 
   const addItem = (product: Product) => {
     setItems((prevItems) => {
@@ -65,14 +83,36 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
 
   const clearCart = () => {
     setItems([]);
+    setShippingState(null);
   };
 
   const itemCount = items.reduce((count, item) => count + item.quantity, 0);
 
   const total = items.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
+  const shippingCost = useMemo(() => {
+    if (!shippingState || itemCount === 0) return 0;
+    // Assume average weight is between 201-500g per saree for calculation
+    return getShippingCost(shippingState);
+  }, [shippingState, itemCount]);
+
+  const totalWithShipping = total + shippingCost;
+
   return (
-    <CartContext.Provider value={{ items, addItem, removeItem, clearCart, itemCount, total }}>
+    <CartContext.Provider
+      value={{
+        items,
+        addItem,
+        removeItem,
+        clearCart,
+        itemCount,
+        total,
+        shippingState,
+        setShippingState,
+        shippingCost,
+        totalWithShipping,
+      }}
+    >
       {children}
     </CartContext.Provider>
   );

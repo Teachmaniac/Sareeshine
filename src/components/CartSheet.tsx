@@ -17,14 +17,35 @@ import { ShoppingCart, Trash2 } from 'lucide-react';
 import Image from 'next/image';
 import { formatPrice } from '@/lib/utils';
 import Link from 'next/link';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select';
+import { IndianStates } from '@/lib/shipping';
 
 export function CartSheet() {
-  const { items, removeItem, total, itemCount } = useCart();
-  
+  const {
+    items,
+    removeItem,
+    total,
+    itemCount,
+    shippingState,
+    setShippingState,
+    shippingCost,
+    totalWithShipping,
+  } = useCart();
+
   // This is a placeholder for a real checkout flow
   const handleCheckout = () => {
-    alert("This is where the checkout process would begin!");
-  }
+    if (!shippingState) {
+      alert('Please select your state for shipping.');
+      return;
+    }
+    alert('This is where the checkout process would begin!');
+  };
 
   return (
     <Sheet>
@@ -48,7 +69,7 @@ export function CartSheet() {
         {itemCount > 0 ? (
           <>
             <div className="flex w-full flex-col pr-6">
-              <ScrollArea className="h-[calc(100vh-12rem)]">
+              <ScrollArea className="h-[calc(100vh-18rem)]">
                 <div className="flex flex-col gap-6">
                   {items.map((item) => (
                     <div key={item.id} className="flex items-center space-x-4">
@@ -82,12 +103,36 @@ export function CartSheet() {
               <Separator />
               <div className="space-y-1.5 text-sm">
                 <div className="flex">
-                  <span className="flex-1">Shipping</span>
-                  <span>Free</span>
+                  <span className="flex-1">Subtotal</span>
+                  <span>{formatPrice(total)}</span>
                 </div>
-                <div className="flex">
-                  <span className="flex-1 font-semibold">Total</span>
-                  <span className="font-semibold">{formatPrice(total)}</span>
+                <div className="flex items-center">
+                  <span className="flex-1">Shipping</span>
+                  <Select
+                    value={shippingState || ''}
+                    onValueChange={setShippingState}
+                  >
+                    <SelectTrigger className="w-[180px]">
+                      <SelectValue placeholder="Select State" />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {IndianStates.map((state) => (
+                        <SelectItem key={state} value={state}>
+                          {state}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </div>
+                {shippingState && (
+                  <div className="flex">
+                    <span className="flex-1">Shipping Cost</span>
+                    <span>{formatPrice(shippingCost)}</span>
+                  </div>
+                )}
+                <div className="flex font-semibold text-base">
+                  <span className="flex-1">Total</span>
+                  <span>{formatPrice(totalWithShipping)}</span>
                 </div>
               </div>
               <SheetFooter>
@@ -95,6 +140,7 @@ export function CartSheet() {
                   className="w-full"
                   size="lg"
                   onClick={handleCheckout}
+                  disabled={!shippingState}
                 >
                   Continue to Checkout
                 </Button>
@@ -108,9 +154,9 @@ export function CartSheet() {
               Your cart is empty. Add some beautiful sarees!
             </p>
             <SheetTrigger asChild>
-                <Button variant="link" asChild>
-                    <Link href="/">Continue Shopping</Link>
-                </Button>
+              <Button variant="link" asChild>
+                <Link href="/">Continue Shopping</Link>
+              </Button>
             </SheetTrigger>
           </div>
         )}
