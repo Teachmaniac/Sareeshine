@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import {
   Sheet,
   SheetContent,
@@ -13,7 +14,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useCart } from '@/hooks/use-cart';
-import { ShoppingCart, Trash2 } from 'lucide-react';
+import { ShoppingCart, Trash2, LoaderCircle } from 'lucide-react';
 import Image from 'next/image';
 import { formatPrice } from '@/lib/utils';
 import Link from 'next/link';
@@ -25,6 +26,9 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { IndianStates } from '@/lib/shipping';
+import { createCheckoutSession } from '@/app/actions';
+import { useToast } from '@/hooks/use-toast';
+
 
 export function CartSheet() {
   const {
@@ -37,14 +41,33 @@ export function CartSheet() {
     shippingCost,
     totalWithShipping,
   } = useCart();
+  const { toast } = useToast();
+  const [isCheckingOut, setIsCheckingOut] = useState(false);
 
-  // This is a placeholder for a real checkout flow
-  const handleCheckout = () => {
+  const handleCheckout = async () => {
     if (!shippingState) {
-      alert('Please select your state for shipping.');
+      toast({
+        title: "Select Shipping State",
+        description: "Please select your state for shipping.",
+        variant: "destructive",
+      });
       return;
     }
-    alert('This is where the checkout process would begin!');
+
+    setIsCheckingOut(true);
+    try {
+      await createCheckoutSession(items);
+      // The action handles the redirect, so we don't need to do anything here on success.
+    } catch (error) {
+      console.error(error);
+      toast({
+        title: "Checkout Error",
+        description: "Could not proceed to checkout. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsCheckingOut(false);
+    }
   };
 
   return (
@@ -140,8 +163,11 @@ export function CartSheet() {
                   className="w-full"
                   size="lg"
                   onClick={handleCheckout}
-                  disabled={!shippingState}
+                  disabled={!shippingState || isCheckingOut}
                 >
+                  {isCheckingOut ? (
+                    <LoaderCircle className="mr-2 h-5 w-5 animate-spin" />
+                   ) : null}
                   Continue to Checkout
                 </Button>
               </SheetFooter>

@@ -12,7 +12,7 @@ export default function SuccessPage() {
     <div className="flex items-center justify-center py-20 animate-in fade-in-50 duration-500">
       <Card className="w-full max-w-md text-center shadow-xl">
         <CardHeader className="items-center">
-          <CheckCircle2 className="h-20 w-20 text-green-500 mb-4" />
+          <CheckCircle2 className="h-20 w-20 text-primary mb-4" />
           <CardTitle className="text-3xl font-headline text-primary">
             Payment Successful!
           </CardTitle>

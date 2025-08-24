@@ -1,7 +1,7 @@
 /**
  * This file contains the shipping cost calculation logic based on destination state.
  * The costs are based on Speed Post tariffs for a 201-500g parcel.
- * All charges are in cents (e.g., 3000 for ₹30).
+ * All charges are in paise (e.g., 6000 for ₹60).
  */
 
 export const IndianStates = [
@@ -43,9 +43,10 @@ export const IndianStates = [
   'West Bengal',
 ];
 
+// Rates based on the user-provided table for a 201-500g parcel from Hyderabad.
 const shippingRates: Record<string, number> = {
-  // Local & Up to 200 km (₹30-₹50)
-  Telangana: 5000,
+  // Local / Up to 200 km (₹30-₹50)
+  Telangana: 5000, // Taking higher end of range
 
   // 201–1000 km (₹60)
   'Andhra Pradesh': 6000,
@@ -72,7 +73,7 @@ const shippingRates: Record<string, number> = {
   Haryana: 8000,
   'NCT of Delhi': 8000,
   Punjab: 8000,
-  Chandigarh: 8000, // Can be ₹80-₹90, taking lower end.
+  Chandigarh: 8000, // Taking lower end of ₹80-₹90 range
 
   // Above 2000 km (₹90)
   'Himachal Pradesh': 9000,
@@ -92,7 +93,7 @@ const shippingRates: Record<string, number> = {
 /**
  * Calculates the shipping cost for a given state.
  * @param {string} state The destination state.
- * @returns {number} The shipping cost in cents, or a default if the state is not found.
+ * @returns {number} The shipping cost in paise, or a default if the state is not found.
  */
 export function getShippingCost(state: string): number {
   return shippingRates[state] || 8000; // Default to a mid-range price if state not found
