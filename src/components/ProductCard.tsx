@@ -18,8 +18,8 @@ type ProductCardProps = {
  */
 export default function ProductCard({ product }: ProductCardProps) {
   return (
-    <Link href={`/products/${product.slug}`} className="group">
-      <Card className="h-full w-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:-translate-y-1">
+    <Link href={`/products/${product.slug}`} className="group block">
+      <Card className="h-full w-full overflow-hidden transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2 border-2 border-transparent hover:border-primary">
         <CardHeader className="p-0">
           <div className="aspect-[3/4] overflow-hidden">
             <Image
@@ -27,16 +27,16 @@ export default function ProductCard({ product }: ProductCardProps) {
               alt={product.name}
               width={600}
               height={800}
-              className="object-cover w-full h-full transition-transform duration-300 ease-in-out group-hover:scale-105"
+              className="object-cover w-full h-full transition-transform duration-500 ease-in-out group-hover:scale-110"
               data-ai-hint={product['data-ai-hint']}
             />
           </div>
         </CardHeader>
-        <CardContent className="p-4">
-          <CardTitle className="text-lg font-headline leading-tight truncate">{product.name}</CardTitle>
+        <CardContent className="p-4 bg-card/50 backdrop-blur-sm">
+          <CardTitle className="text-lg font-headline leading-tight truncate group-hover:text-primary transition-colors duration-300">{product.name}</CardTitle>
         </CardContent>
-        <CardFooter className="p-4 pt-0">
-          <p className="text-md font-semibold text-primary">{formatPrice(product.price)}</p>
+        <CardFooter className="p-4 pt-0 bg-card/50 backdrop-blur-sm">
+          <p className="text-lg font-bold text-primary">{formatPrice(product.price)}</p>
         </CardFooter>
       </Card>
     </Link>

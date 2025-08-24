@@ -12,16 +12,16 @@ export default async function Home() {
   return (
     <div className="py-12 animate-in fade-in duration-500">
       <div className="text-center mb-12">
-        <h2 className="text-3xl font-headline font-bold tracking-tight text-primary sm:text-4xl">
-          Our Collection
+        <h2 className="text-4xl font-headline font-bold tracking-tight text-primary sm:text-5xl">
+          Our Exquisite Collection
         </h2>
-        <p className="mt-4 text-lg leading-8 text-foreground/80">
-          Explore our handpicked selection of exquisite sarees, perfect for every occasion.
+        <p className="mt-4 text-xl leading-8 text-foreground/80 max-w-2xl mx-auto">
+          Discover our handpicked selection of timeless sarees, meticulously crafted for every cherished occasion.
         </p>
       </div>
 
       {products.length > 0 ? (
-        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:gap-x-8">
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
