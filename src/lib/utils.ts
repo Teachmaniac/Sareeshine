@@ -6,13 +6,15 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 /**
- * Formats a price in paise into a currency string (e.g., 2999 -> ₹29.99).
- * @param priceInPaise The price in the smallest currency unit (paise).
+ * Formats a price into a currency string (e.g., 2999 -> ₹2,999).
+ * @param price The price in the main currency unit (Rupees).
  * @returns A formatted string representing the price in Rupees.
  */
-export function formatPrice(priceInPaise: number) {
+export function formatPrice(price: number) {
   return new Intl.NumberFormat('en-IN', {
     style: 'currency',
     currency: 'INR',
-  }).format(priceInPaise / 100);
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(price);
 }
