@@ -39,31 +39,43 @@ export const useCart = () => {
 export const CartProvider = ({ children }: { children: ReactNode }) => {
   const [items, setItems] = useState<CartItem[]>([]);
   const [shippingState, setShippingState] = useState<string | null>(null);
+  const [isClient, setIsClient] = useState(false);
+
+  // Ensure localStorage is only accessed on the client
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   // Load cart and shipping state from localStorage on initial render
   useEffect(() => {
-    const savedCart = localStorage.getItem('sareeshine-cart');
-    if (savedCart) {
-      setItems(JSON.parse(savedCart));
+    if (isClient) {
+      const savedCart = localStorage.getItem('sareeshine-cart');
+      if (savedCart) {
+        setItems(JSON.parse(savedCart));
+      }
+      const savedState = localStorage.getItem('sareeshine-shipping-state');
+      if (savedState) {
+        setShippingState(JSON.parse(savedState));
+      }
     }
-    const savedState = localStorage.getItem('sareeshine-shipping-state');
-    if (savedState) {
-      setShippingState(JSON.parse(savedState));
-    }
-  }, []);
+  }, [isClient]);
 
   // Save cart and shipping state to localStorage whenever they change
   useEffect(() => {
-    localStorage.setItem('sareeshine-cart', JSON.stringify(items));
-  }, [items]);
+    if (isClient) {
+      localStorage.setItem('sareeshine-cart', JSON.stringify(items));
+    }
+  }, [items, isClient]);
 
   useEffect(() => {
-    if (shippingState) {
-      localStorage.setItem('sareeshine-shipping-state', JSON.stringify(shippingState));
-    } else {
-      localStorage.removeItem('sareeshine-shipping-state');
+    if (isClient) {
+      if (shippingState) {
+        localStorage.setItem('sareeshine-shipping-state', JSON.stringify(shippingState));
+      } else {
+        localStorage.removeItem('sareeshine-shipping-state');
+      }
     }
-  }, [shippingState]);
+  }, [shippingState, isClient]);
 
   const addItem = (product: Product) => {
     setItems((prevItems) => {
@@ -84,6 +96,10 @@ export const CartProvider = ({ children }: { children: ReactNode }) => {
   const clearCart = () => {
     setItems([]);
     setShippingState(null);
+    if(isClient) {
+      localStorage.removeItem('sareeshine-cart');
+      localStorage.removeItem('sareeshine-shipping-state');
+    }
   };
 
   const itemCount = items.reduce((count, item) => count + item.quantity, 0);
