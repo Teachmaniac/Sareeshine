@@ -3,8 +3,10 @@
 import { redirect } from 'next/navigation';
 import Stripe from 'stripe';
 import { CartItem } from '@/hooks/use-cart';
-import { db } from '@/lib/firebase';
+import { db, storage } from '@/lib/firebase';
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
+import { getDownloadURL, ref, uploadString } from 'firebase/storage';
+import { randomUUID } from 'crypto';
 
 /**
  * Creates a Stripe Checkout Session for a given set of cart items.
@@ -92,6 +94,7 @@ export async function saveOrder(sessionId: string) {
         }),
         shipping_address: session.shipping_details?.address,
         created_at: serverTimestamp(),
+        status: 'paid'
       };
 
       await addDoc(collection(db, 'orders'), orderData);
@@ -102,5 +105,55 @@ export async function saveOrder(sessionId: string) {
   } catch (error) {
     console.error('Error saving order:', error);
     return { success: false, message: 'Failed to save order.' };
+  }
+}
+
+export async function submitManualOrder({
+  items,
+  total,
+  shippingCost,
+  shippingAddress,
+  screenshotDataUrl,
+  customerDetails
+}: {
+  items: CartItem[];
+  total: number;
+  shippingCost: number;
+  shippingAddress: any;
+  screenshotDataUrl: string;
+  customerDetails: { name: string; email: string; phone: string; };
+}) {
+  try {
+    // 1. Upload screenshot to Firebase Storage
+    const imageId = randomUUID();
+    const storageRef = ref(storage, `payment_screenshots/${imageId}`);
+    const uploadResult = await uploadString(storageRef, screenshotDataUrl, 'data_url');
+    const screenshotUrl = await getDownloadURL(uploadResult.ref);
+
+    // 2. Save order to Firestore
+    const orderData = {
+      customer_details: customerDetails,
+      total,
+      currency: 'INR',
+      items: items.map(item => ({
+        id: item.id,
+        name: item.name,
+        quantity: item.quantity,
+        price: item.price,
+      })),
+      shipping_address: shippingAddress,
+      shipping_cost: shippingCost,
+      payment_screenshot_url: screenshotUrl,
+      status: 'pending_verification',
+      created_at: serverTimestamp(),
+    };
+
+    await addDoc(collection(db, 'orders'), orderData);
+    
+    redirect('/success');
+
+  } catch (error) {
+    console.error('Error submitting manual order:', error);
+    return { success: false, message: 'Failed to submit order. Please try again.' };
   }
 }

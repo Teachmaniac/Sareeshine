@@ -26,8 +26,8 @@ import {
   SelectValue,
 } from '@/components/ui/select';
 import { IndianStates } from '@/lib/shipping';
-import { createCheckoutSession } from '@/app/actions';
 import { useToast } from '@/hooks/use-toast';
+import { useRouter } from 'next/navigation';
 
 
 export function CartSheet() {
@@ -42,7 +42,7 @@ export function CartSheet() {
     totalWithShipping,
   } = useCart();
   const { toast } = useToast();
-  const [isCheckingOut, setIsCheckingOut] = useState(false);
+  const router = useRouter();
 
   const handleCheckout = async () => {
     if (!shippingState) {
@@ -53,21 +53,7 @@ export function CartSheet() {
       });
       return;
     }
-
-    setIsCheckingOut(true);
-    try {
-      await createCheckoutSession(items);
-      // The action handles the redirect, so we don't need to do anything here on success.
-    } catch (error) {
-      console.error(error);
-      toast({
-        title: "Checkout Error",
-        description: "Could not proceed to checkout. Please try again.",
-        variant: "destructive",
-      });
-    } finally {
-      setIsCheckingOut(false);
-    }
+    router.push('/checkout');
   };
 
   return (
@@ -159,17 +145,16 @@ export function CartSheet() {
                 </div>
               </div>
               <SheetFooter>
-                <Button
-                  className="w-full"
-                  size="lg"
-                  onClick={handleCheckout}
-                  disabled={!shippingState || isCheckingOut}
-                >
-                  {isCheckingOut ? (
-                    <LoaderCircle className="mr-2 h-5 w-5 animate-spin" />
-                   ) : null}
-                  Continue to Checkout
-                </Button>
+                <SheetTrigger asChild>
+                  <Button
+                    className="w-full"
+                    size="lg"
+                    onClick={handleCheckout}
+                    disabled={!shippingState}
+                  >
+                    Continue to Checkout
+                  </Button>
+                </SheetTrigger>
               </SheetFooter>
             </div>
           </>
