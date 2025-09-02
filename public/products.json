@@ -1,28 +1,503 @@
 
 [
-  {"id": 1, "name": "Classic Kanjivaram Silk", "slug": "classic-kanjivaram-silk", "price": 2999, "priceId": "price_1PgQ7mRtx25a7Y8dY04fFzLd", "description": "A timeless Kanjivaram silk saree with a rich zari border, perfect for weddings and grand occasions.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "kanjivaram silk"},
-  {"id": 2, "name": "Royal Banarasi Brocade", "slug": "royal-banarasi-brocade", "price": 4499, "priceId": "price_1PgQ8XRtx25a7Y8d1sC7QY2Z", "description": "Feel like royalty in this exquisite Banarasi brocade saree, featuring intricate floral patterns.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "banarasi brocade"},
-  {"id": 3, "name": "Elegant Chiffon Drape", "slug": "elegant-chiffon-drape", "price": 1899, "priceId": "price_1PgQ9ARtx25a7Y8d4vF1J0Sg", "description": "A lightweight and elegant chiffon saree that drapes beautifully, ideal for parties and evening events.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "chiffon saree"},
-  {"id": 4, "name": "Vibrant Bandhani Georgette", "slug": "vibrant-bandhani-georgette", "price": 2199, "priceId": "price_1PgQ9WRtx25a7Y8dp5rV68s5", "description": "A stunning Bandhani saree in georgette, showcasing traditional tie-dye art from Gujarat.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "bandhani georgette"},
-  {"id": 5, "name": "Ornate Paithani Silk", "slug": "ornate-paithani-silk", "price": 5999, "priceId": "price_1PgQAFRtx25a7Y8dCj5yW9wR", "description": "An ornate Paithani silk saree from Maharashtra, known for its peacock motifs and vibrant colors.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "paithani silk"},
-  {"id": 6, "name": "Mysore Silk Splendor", "slug": "mysore-silk-splendor", "price": 3499, "priceId": "price_1PgQAdRtx25a7Y8dwMvX3A2v", "description": "Experience the luster of pure Mysore silk with this simple yet sophisticated saree.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "mysore silk"},
-  {"id": 7, "name": "Artistic Kalamkari Cotton", "slug": "artistic-kalamkari-cotton", "price": 1599, "priceId": "price_1PgQBIRtx25a7Y8dc2tD9Q9S", "description": "A beautiful cotton saree featuring hand-painted Kalamkari art, perfect for a classy, ethnic look.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "kalamkari cotton"},
-  {"id": 8, "name": "Traditional Sambalpuri Ikat", "slug": "traditional-sambalpuri-ikat", "price": 2599, "priceId": "price_1PgQBXRtx25a7Y8dVdKqP3fW", "description": "A handwoven Sambalpuri Ikat saree from Odisha, with unique patterns and a rustic charm.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "sambalpuri ikat"},
-  {"id": 9, "name": "Shimmering Tussar Silk", "slug": "shimmering-tussar-silk", "price": 2899, "priceId": "price_1PgQCFRtx25a7Y8dp2yJg8g7", "description": "A Tussar silk saree with a natural golden sheen, offering a blend of comfort and elegance.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "tussar silk"},
-  {"id": 10, "name": "Graceful Kasavu Saree", "slug": "graceful-kasavu-saree", "price": 2299, "priceId": "price_1PgQCURtx25a7Y8du5PzU8Wz", "description": "The traditional Kasavu saree from Kerala, known for its off-white color and golden border.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "kasavu saree"},
-  {"id": 11, "name": "Regal Patola Weave", "slug": "regal-patola-weave", "price": 7999, "priceId": "price_1PgQDCARtx25a7Y8d3i6H0uN3", "description": "A luxurious double ikat Patola saree from Patan, a symbol of status and tradition.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "patola weave"},
-  {"id": 12, "name": "Chikankari Embroidery Marvel", "slug": "chikankari-embroidery-marvel", "price": 3199, "priceId": "price_1PgQDRRtx25a7Y8dM0T5A2Rk", "description": "A georgette saree adorned with delicate Chikankari embroidery from Lucknow.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "chikankari embroidery"},
-  {"id": 13, "name": "Konrad Temple Saree", "slug": "konrad-temple-saree", "price": 3799, "priceId": "price_1PgQDhRtx25a7Y8d1xR5y6vP", "description": "A sturdy Konrad saree, also known as a temple saree, with wide borders featuring motifs of elephants and peacocks.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "konrad saree"},
-  {"id": 14, "name": "Pochampally Ikat Splendor", "slug": "pochampally-ikat-splendor", "price": 2799, "priceId": "price_1PgQDxRtx25a7Y8dq8zD9e8C", "description": "A vibrant Pochampally Ikat saree with geometric patterns, woven in Bhoodan Pochampally, Telangana.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "pochampally ikat"},
-  {"id": 15, "name": "Baluchari Silk Tale", "slug": "baluchari-silk-tale", "price": 4899, "priceId": "price_1PgQEFRtx25a7Y8dG5bI0N6L", "description": "A Baluchari silk saree from West Bengal, depicting mythological scenes on its pallu.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "baluchari silk"},
-  {"id": 16, "name": "Classic Gadwal Silk", "slug": "classic-gadwal-silk", "price": 3999, "priceId": "price_1PgQEWRtx25a7Y8dJ9fN9Z9p", "description": "A distinctive Gadwal saree with a cotton body and a contrasting silk pallu and border.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "gadwal silk"},
-  {"id": 17, "name": "Muga Silk Heritage", "slug": "muga-silk-heritage", "price": 6499, "priceId": "price_1PgQEhRtx25a7Y8dL8mN0Z0B", "description": "An exclusive Muga silk saree from Assam, known for its natural shimmering golden tint and durability.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "muga silk"},
-  {"id": 18, "name": "Leheriya Georgette Wave", "slug": "leheriya-georgette-wave", "price": 1999, "priceId": "price_1PgQExRtx25a7Y8dw4qJ5D9v", "description": "A colorful Leheriya saree from Rajasthan, featuring a unique wave-like pattern.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "leheriya georgette"},
-  {"id": 19, "name": "Tant Cotton Comfort", "slug": "tant-cotton-comfort", "price": 1299, "priceId": "price_1PgQFFRtx25a7Y8dK2jC0m1r", "description": "A lightweight Tant cotton saree from Bengal, perfect for daily wear with its crisp texture.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "tant cotton"},
-  {"id": 20, "name": "Phulkari Embroidered Georgette", "slug": "phulkari-embroidered-georgette", "price": 3299, "priceId": "price_1PgQFXRtx25a7Y8d8gR2y1Y3", "description": "A georgette saree beautifully embroidered with Phulkari work from Punjab.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "phulkari embroidery"},
-  {"id": 21, "name": "Ilkal Saree Charm", "slug": "ilkal-saree-charm", "price": 2399, "priceId": "price_1PgQFnRtx25a7Y8d2jM8S7vR", "description": "A traditional Ilkal saree from Karnataka, known for its unique weaving technique joining the body and pallu.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "ilkal saree"},
-  {"id": 22, "name": "Jamdani Weave Wonder", "slug": "jamdani-weave-wonder", "price": 5199, "priceId": "price_1PgQFzRtx25a7Y8dx8K0Y6eK", "description": "An exquisite Jamdani saree, a fine muslin textile with intricate motifs woven into the fabric.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "jamdani weave"},
-  {"id": 23, "name": "Narayanpet Cotton Silk", "slug": "narayanpet-cotton-silk", "price": 2699, "priceId": "price_1PgQGGRtx25a7Y8d4sC9B0tS", "description": "A lightweight Narayanpet saree with a unique style of checkered body and a contrasting silver or gold border.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "narayanpet saree"},
-  {"id": 24, "name": "Kota Doria Finesse", "slug": "kota-doria-finesse", "price": 1799, "priceId": "price_1PgQGVRtx25a7Y8dM5xX0g3F", "description": "A feather-light Kota Doria saree, known for its square-check patterns and airy feel.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "kota doria"},
-  {"id": 25, "name": "Chanderi Silk Cotton", "slug": "chanderi-silk-cotton", "price": 2499, "priceId": "price_1PgQGkRtx25a7Y8d8yH4Q4dK", "description": "A sheer and lightweight Chanderi saree, blending silk and cotton for a luxurious feel.", "imageUrl": "https://placehold.co/600x800.png", "data-ai-hint": "chanderi silk"}
+  {
+    "id": 1,
+    "name": "Classic Kanjivaram Silk",
+    "slug": "classic-kanjivaram-silk",
+    "price": 7500,
+    "priceId": "price_1PQRg2SIa5s7V5rYtXkFfLqX",
+    "description": "A timeless Kanjivaram silk saree with traditional peacock motifs and a rich zari border, perfect for weddings and grand occasions.",
+    "imageUrl": "https://picsum.photos/600/800",
+    "data-ai-hint": "silk saree"
+  },
+  {
+    "id": 2,
+    "name": "Elegant Banarasi Georgette",
+    "slug": "elegant-banarasi-georgette",
+    "price": 5200,
+    "priceId": "price_1PQRh4SIa5s7V5rYjYqK2lMn",
+    "description": "Lightweight Banarasi georgette saree with intricate floral jaal work. A blend of tradition and modern elegance.",
+    "imageUrl": "https://picsum.photos/600/801",
+    "data-ai-hint": "georgette saree"
+  },
+  {
+    "id": 3,
+    "name": "Royal Paithani Weave",
+    "slug": "royal-paithani-weave",
+    "price": 12500,
+    "priceId": "price_1PQRi1SIa5s7V5rYqZlKkLqO",
+    "description": "An exquisite handwoven Paithani saree from Maharashtra, featuring the iconic peacock pallu and vibrant colors.",
+    "imageUrl": "https://picsum.photos/600/802",
+    "data-ai-hint": "handwoven saree"
+  },
+  {
+    "id": 4,
+    "name": "Chanderi Cotton Silk",
+    "slug": "chanderi-cotton-silk",
+    "price": 3800,
+    "priceId": "price_1PQRj0SIa5s7V5rYWkFjGkLp",
+    "description": "A graceful Chanderi cotton silk saree known for its sheer texture, light weight, and glossy finish. Ideal for summer festivities.",
+    "imageUrl": "https://picsum.photos/600/803",
+    "data-ai-hint": "cotton saree"
+  },
+  {
+    "id": 5,
+    "name": "Mysore Silk Splendor",
+    "slug": "mysore-silk-splendor",
+    "price": 8900,
+    "priceId": "price_1PQRkZSIa5s7V5rYjYkLqM2n",
+    "description": "Lustrous Mysore silk saree with a minimalist design and a solid gold zari border, representing understated luxury.",
+    "imageUrl": "https://picsum.photos/600/804",
+    "data-ai-hint": "mysore silk"
+  },
+  {
+    "id": 6,
+    "name": "Vibrant Bandhani Georgette",
+    "slug": "vibrant-bandhani-georgette",
+    "price": 4200,
+    "priceId": "price_1PQRsJSIa5s7V5rYlMnKkLqA",
+    "description": "A lively Bandhani saree from Gujarat, featuring traditional tie-and-dye patterns on a flowing georgette fabric.",
+    "imageUrl": "https://picsum.photos/600/805",
+    "data-ai-hint": "bandhani saree"
+  },
+  {
+    "id": 7,
+    "name": "Orissa Ikat Handloom",
+    "slug": "orissa-ikat-handloom",
+    "price": 6500,
+    "priceId": "price_1PQRtKSIa5s7V5rYmNnKkLqB",
+    "description": "Authentic single Ikat handloom saree from Odisha with blurred geometric patterns, a testament to skilled craftsmanship.",
+    "imageUrl": "https://picsum.photos/600/806",
+    "data-ai-hint": "ikat saree"
+  },
+  {
+    "id": 8,
+    "name": "Lucknowi Chikankari",
+    "slug": "lucknowi-chikankari",
+    "price": 5800,
+    "priceId": "price_1PQRuLSIa5s7V5rYoNnKkLqC",
+    "description": "Delicate and artfully done Chikankari embroidery on a pastel-colored fabric, exuding grace and sophistication.",
+    "imageUrl": "https://picsum.photos/600/807",
+    "data-ai-hint": "chikankari work"
+  },
+  {
+    "id": 9,
+    "name": "Patola Silk Replica",
+    "slug": "patola-silk-replica",
+    "price": 9500,
+    "priceId": "price_1PQRvMSIa5s7V5rYpNoKkLqD",
+    "description": "A beautiful power-loom version of the royal Patola silk saree, featuring intricate geometric designs and vibrant hues.",
+    "imageUrl": "https://picsum.photos/600/808",
+    "data-ai-hint": "patola saree"
+  },
+  {
+    "id": 10,
+    "name": "Kasavu Saree from Kerala",
+    "slug": "kasavu-saree-kerala",
+    "price": 3200,
+    "priceId": "price_1PQRwNSIa5s7V5rYqOoKkLqE",
+    "description": "The traditional off-white and gold Kasavu saree, celebrated for its simplicity, elegance, and cultural significance.",
+    "imageUrl": "https://picsum.photos/600/809",
+    "data-ai-hint": "kasavu saree"
+  },
+  {
+    "id": 11,
+    "name": "Tussar Silk Elegance",
+    "slug": "tussar-silk-elegance",
+    "price": 4800,
+    "priceId": "price_1PQRxOSIa5s7V5rYrPpKkLqF",
+    "description": "A rich Tussar silk saree with a natural golden sheen and a slightly coarse texture, often adorned with tribal prints.",
+    "imageUrl": "https://picsum.photos/600/810",
+    "data-ai-hint": "tussar silk"
+  },
+  {
+    "id": 12,
+    "name": "Jamdani Weave from Bengal",
+    "slug": "jamdani-weave-bengal",
+    "price": 7200,
+    "priceId": "price_1PQRyPSIa5s7V5rYsPqKkLqG",
+    "description": "An airy and translucent Jamdani saree, handwoven with intricate motifs that appear to float on the surface.",
+    "imageUrl": "https://picsum.photos/600/811",
+    "data-ai-hint": "jamdani saree"
+  },
+  {
+    "id": 13,
+    "name": "Pochampally Ikat Silk",
+    "slug": "pochampally-ikat-silk",
+    "price": 6900,
+    "priceId": "price_1PQRzQSIa5s7V5rYtQrKkLqH",
+    "description": "Stunning Pochampally Ikat from Telangana with bold, geometric patterns created by the intricate resist-dyeing technique.",
+    "imageUrl": "https://picsum.photos/600/812",
+    "data-ai-hint": "pochampally saree"
+  },
+  {
+    "id": 14,
+    "name": "Konrad Temple Saree",
+    "slug": "konrad-temple-saree",
+    "price": 8200,
+    "priceId": "price_1PQS0RSIa5s7V5rYuRrKkLqI",
+    "description": "A traditional Konrad saree with wide borders featuring temple, peacock, or elephant motifs, originally woven for temple deities.",
+    "imageUrl": "https://picsum.photos/600/813",
+    "data-ai-hint": "temple border"
+  },
+  {
+    "id": 15,
+    "name": "Soft Linen Saree",
+    "slug": "soft-linen-saree",
+    "price": 3500,
+    "priceId": "price_1PQS1SSIa5s7V5rYvSrKkLqJ",
+    "description": "Breathable and comfortable linen saree with a subtle texture and simple design, perfect for professional or casual wear.",
+    "imageUrl": "https://picsum.photos/600/814",
+    "data-ai-hint": "linen saree"
+  },
+  {
+    "id": 16,
+    "name": "Gota Patti Work Saree",
+    "slug": "gota-patti-work-saree",
+    "price": 6100,
+    "priceId": "price_1PQS2TSIa5s7V5rYwTrKkLqK",
+    "description": "A festive Rajasthani saree embellished with Gota Patti applique work, adding a touch of shimmer and royalty.",
+    "imageUrl": "https://picsum.photos/600/815",
+    "data-ai-hint": "gota patti"
+  },
+  {
+    "id": 17,
+    "name": "Kalamkari Printed Cotton",
+    "slug": "kalamkari-printed-cotton",
+    "price": 2900,
+    "priceId": "price_1PQS3USIa5s7V5rYxUrKkLqL",
+    "description": "An artistic cotton saree featuring hand-painted or block-printed Kalamkari designs depicting mythological tales.",
+    "imageUrl": "https://picsum.photos/600/816",
+    "data-ai-hint": "kalamkari print"
+  },
+  {
+    "id": 18,
+    "name": "Bhagalpuri Silk Saree",
+    "slug": "bhagalpuri-silk-saree",
+    "price": 3900,
+    "priceId": "price_1PQS4VSIa5s7V5rYyVrKkLqM",
+    "description": "Also known as 'dull silk', this saree from Bhagalpur is known for its unique texture and affordability.",
+    "imageUrl": "https://picsum.photos/600/817",
+    "data-ai-hint": "bhagalpuri silk"
+  },
+  {
+    "id": 19,
+    "name": "Leheriya Georgette",
+    "slug": "leheriya-georgette",
+    "price": 4500,
+    "priceId": "price_1PQS5WSIa5s7V5rYzWrKkLqN",
+    "description": "A vibrant saree with a distinctive wave-like pattern (Leheriya), a traditional tie-dye art from Rajasthan.",
+    "imageUrl": "https://picsum.photos/600/818",
+    "data-ai-hint": "leheriya print"
+  },
+  {
+    "id": 20,
+    "name": "Tanchoi Silk Saree",
+    "slug": "tanchoi-silk-saree",
+    "price": 9800,
+    "priceId": "price_1PQS6XSIa5s7V5rY0XrKkLqO",
+    "description": "A complex and intricate weaving style where the fabric has a satin finish and detailed, colorful motifs.",
+    "imageUrl": "https://picsum.photos/600/819",
+    "data-ai-hint": "tanchoi silk"
+  },
+  {
+    "id": 21,
+    "name": "Muga Silk from Assam",
+    "slug": "muga-silk-assam",
+    "price": 15500,
+    "priceId": "price_1PQS7YSIa5s7V5rY1YsKkLqP",
+    "description": "One of the rarest silks in the world, Muga silk is known for its natural golden hue and extreme durability.",
+    "imageUrl": "https://picsum.photos/600/820",
+    "data-ai-hint": "muga silk"
+  },
+  {
+    "id": 22,
+    "name": "Phulkari Embroidered Saree",
+    "slug": "phulkari-embroidered-saree",
+    "price": 5400,
+    "priceId": "price_1PQS8ZSIa5s7V5rY2ZsKkLqQ",
+    "description": "A stunning saree with Phulkari embroidery from Punjab, characterized by its vibrant, dense floral patterns.",
+    "imageUrl": "https://picsum.photos/600/821",
+    "data-ai-hint": "phulkari embroidery"
+  },
+  {
+    "id": 23,
+    "name": "Uppada Silk Saree",
+    "slug": "uppada-silk-saree",
+    "price": 8500,
+    "priceId": "price_1PQS9aSIa5s7V5rY3atKkLqR",
+    "description": "A lightweight and soft silk saree from Uppada, known for its intricate Jamdani weaving patterns.",
+    "imageUrl": "https://picsum.photos/600/822",
+    "data-ai-hint": "uppada silk"
+  },
+  {
+    "id": 24,
+    "name": "Narayanpet Cotton Saree",
+    "slug": "narayanpet-cotton-saree",
+    "price": 3100,
+    "priceId": "price_1PQSAbSIa5s7V5rY4btKkLqS",
+    "description": "A classic handloom cotton saree with a contrasting silk border and a unique pattu design on the pallu.",
+    "imageUrl": "https://picsum.photos/600/823",
+    "data-ai-hint": "narayanpet saree"
+  },
+  {
+    "id": 25,
+    "name": "Baluchari Silk Saree",
+    "slug": "baluchari-silk-saree",
+    "price": 11000,
+    "priceId": "price_1PQSBcSIa5s7V5rY5ctKkLqT",
+    "description": "A rich silk saree from Bengal with pallus depicting stories from Indian mythology, woven with silk threads.",
+    "imageUrl": "https://picsum.photos/600/824",
+    "data-ai-hint": "baluchari silk"
+  },
+  {
+    "id": 26,
+    "name": "Maheshwari Silk Cotton",
+    "slug": "maheshwari-silk-cotton",
+    "price": 4300,
+    "priceId": "price_1PQSdSIa5s7V5rYdctKkLqU",
+    "description": "Originating from Maheshwar, this saree is famed for its reversible border and lightweight feel.",
+    "imageUrl": "https://picsum.photos/600/825",
+    "data-ai-hint": "maheshwari saree"
+  },
+  {
+    "id": 27,
+    "name": "Ilkal Saree with Kasuti",
+    "slug": "ilkal-saree-kasuti",
+    "price": 4800,
+    "priceId": "price_1PQSfSIa5s7V5rYeftKkLqV",
+    "description": "Traditional Ilkal saree from Karnataka, known for its unique weaving technique that joins the body and pallu.",
+    "imageUrl": "https://picsum.photos/600/826",
+    "data-ai-hint": "ilkal saree"
+  },
+  {
+    "id": 28,
+    "name": "Chettinad Cotton Saree",
+    "slug": "chettinad-cotton-saree",
+    "price": 2800,
+    "priceId": "price_1PQSgSIa5s7V5rYgftKkLqW",
+    "description": "A vibrant and bold cotton saree from Tamil Nadu, characterized by its heavy fabric and striking color contrasts.",
+    "imageUrl": "https://picsum.photos/600/827",
+    "data-ai-hint": "chettinad cotton"
+  },
+  {
+    "id": 29,
+    "name": "Kosa Silk Saree",
+    "slug": "kosa-silk-saree",
+    "price": 5900,
+    "priceId": "price_1PQShSIa5s7V5rYhgtKkLqX",
+    "description": "A type of Tussar silk from Chhattisgarh, Kosa silk is prized for its dull golden-brownish texture.",
+    "imageUrl": "https://picsum.photos/600/828",
+    "data-ai-hint": "kosa silk"
+  },
+  {
+    "id": 30,
+    "name": "Mangalagiri Cotton",
+    "slug": "mangalagiri-cotton",
+    "price": 3300,
+    "priceId": "price_1PQSjSIa5s7V5rYijtKkLqY",
+    "description": "Durable Mangalagiri cotton saree from Andhra Pradesh with a simple design and a characteristic zari border.",
+    "imageUrl": "https://picsum.photos/600/829",
+    "data-ai-hint": "mangalagiri cotton"
+  },
+  {
+    "id": 31,
+    "name": "Bomkai Saree 'Sonepuri'",
+    "slug": "bomkai-saree-sonepuri",
+    "price": 6800,
+    "priceId": "price_1PQSkSIa5s7V5rYkjtKkLqZ",
+    "description": "A handloom saree from Odisha with Ikat and detailed threadwork embroidery on the pallu and border.",
+    "imageUrl": "https://picsum.photos/600/830",
+    "data-ai-hint": "bomkai saree"
+  },
+  {
+    "id": 32,
+    "name": "Digital Print Organza",
+    "slug": "digital-print-organza",
+    "price": 4100,
+    "priceId": "price_1PQSltSIa5s7V5rYljtKkLa0",
+    "description": "A modern, lightweight organza saree with vibrant and artistic digital prints, perfect for parties.",
+    "imageUrl": "https://picsum.photos/600/831",
+    "data-ai-hint": "organza saree"
+  },
+  {
+    "id": 33,
+    "name": "Gadwal Silk Cotton",
+    "slug": "gadwal-silk-cotton",
+    "price": 7900,
+    "priceId": "price_1PQSmSIa5s7V5rYmktKkLa1",
+    "description": "A unique saree where the body is cotton and the border and pallu are silk, woven separately and then joined.",
+    "imageUrl": "https://picsum.photos/600/832",
+    "data-ai-hint": "gadwal saree"
+  },
+  {
+    "id": 34,
+    "name": "Kota Doria Saree",
+    "slug": "kota-doria-saree",
+    "price": 3600,
+    "priceId": "price_1PQSntSIa5s7V5rYnltKkLa2",
+    "description": "A lightweight, airy saree from Rajasthan with a unique square-check pattern (khats) made of cotton and silk.",
+    "imageUrl": "https://picsum.photos/600/833",
+    "data-ai-hint": "kota doria"
+  },
+  {
+    "id": 35,
+    "name": "Venkatagiri Cotton Saree",
+    "slug": "venkatagiri-cotton-saree",
+    "price": 3700,
+    "priceId": "price_1PQSoSIa5s7V5rYomtKkLa3",
+    "description": "A fine cotton saree from Andhra Pradesh, known for its Jamdani style weaving and delicate motifs.",
+    "imageUrl": "https://picsum.photos/600/834",
+    "data-ai-hint": "venkatagiri cotton"
+  },
+  {
+    "id": 36,
+    "name": "Kantha Stitch Silk",
+    "slug": "kantha-stitch-silk",
+    "price": 6300,
+    "priceId": "price_1PQSpSIa5s7V5rYpntKkLa4",
+    "description": "A beautiful silk saree adorned with Kantha embroidery, a running stitch technique from West Bengal.",
+    "imageUrl": "https://picsum.photos/600/835",
+    "data-ai-hint": "kantha stitch"
+  },
+  {
+    "id": 37,
+    "name": "Dharmavaram Silk Saree",
+    "slug": "dharmavaram-silk-saree",
+    "price": 9200,
+    "priceId": "price_1PQSqSIa5s7V5rYqotKkLa5",
+    "description": "Heavy silk saree from Andhra Pradesh, known for its gold-plated zari borders and traditional motifs.",
+    "imageUrl": "https://picsum.photos/600/836",
+    "data-ai-hint": "dharmavaram silk"
+  },
+  {
+    "id": 38,
+    "name": "Ajrakh Printed Modal Silk",
+    "slug": "ajrakh-printed-modal-silk",
+    "price": 4900,
+    "priceId": "price_1PQSrSIa5s7V5rYrptKkLa6",
+    "description": "A soft modal silk saree featuring traditional Ajrakh block prints with natural dyes and intricate patterns.",
+    "imageUrl": "https://picsum.photos/600/837",
+    "data-ai-hint": "ajrakh print"
+  },
+  {
+    "id": 39,
+    "name": "Sambalpuri Bandha Saree",
+    "slug": "sambalpuri-bandha-saree",
+    "price": 7100,
+    "priceId": "price_1PQSstSIa5s7V5rYsqtKkLa7",
+    "description": "A traditional handwoven Ikat saree where the warp and weft are tie-dyed before weaving, from Sambalpur, Odisha.",
+    "imageUrl": "https://picsum.photos/600/838",
+    "data-ai-hint": "sambalpuri saree"
+  },
+  {
+    "id": 40,
+    "name": "Chiffon Saree with Sequin",
+    "slug": "chiffon-saree-sequin",
+    "price": 3800,
+    "priceId": "price_1PQStSIa5s7V5rYtrtKkLa8",
+    "description": "A lightweight and flowing chiffon saree, embellished with delicate sequin work for a touch of sparkle.",
+    "imageUrl": "https://picsum.photos/600/839",
+    "data-ai-hint": "chiffon saree"
+  },
+  {
+    "id": 41,
+    "name": "Matka Silk Saree",
+    "slug": "matka-silk-saree",
+    "price": 5300,
+    "priceId": "price_1PQSuSIa5s7V5rYuttKkLa9",
+    "description": "A coarse-textured silk saree made from the waste of Mulberry silk, giving it a unique, rustic charm.",
+    "imageUrl": "https://picsum.photos/600/840",
+    "data-ai-hint": "matka silk"
+  },
+  {
+    "id": 42,
+    "name": "Crepe Silk Saree",
+    "slug": "crepe-silk-saree",
+    "price": 5600,
+    "priceId": "price_1PQSvSIa5s7V5rYvutKkLaA",
+    "description": "A graceful and crinkled crepe silk saree that drapes beautifully, often featuring vibrant prints.",
+    "imageUrl": "https://picsum.photos/600/841",
+    "data-ai-hint": "crepe silk"
+  },
+  {
+    "id": 43,
+    "name": "Raw Silk Saree",
+    "slug": "raw-silk-saree",
+    "price": 4700,
+    "priceId": "price_1PQSweSIa5s7V5rYwvtKkLaB",
+    "description": "A crisp raw silk saree with a slightly textured feel, known for its natural look and elegant fall.",
+    "imageUrl": "https://picsum.photos/600/842",
+    "data-ai-hint": "raw silk"
+  },
+  {
+    "id": 44,
+    "name": "Satin Georgette Saree",
+    "slug": "satin-georgette-saree",
+    "price": 4400,
+    "priceId": "price_1PQSxeSIa5s7V5rYxwtKkLaC",
+    "description": "A luxurious saree with the smoothness of satin and the flowy nature of georgette, perfect for evening events.",
+    "imageUrl": "https://picsum.photos/600/843",
+    "data-ai-hint": "satin georgette"
+  },
+  {
+    "id": 45,
+    "name": "Tissue Silk Saree",
+    "slug": "tissue-silk-saree",
+    "price": 6800,
+    "priceId": "price_1PQSyeSIa5s7V5rYyxtKkLaD",
+    "description": "A delicate and shimmering saree woven with fine silk and metallic threads, creating a tissue-like texture.",
+    "imageUrl": "https://picsum.photos/600/844",
+    "data-ai-hint": "tissue silk"
+  },
+  {
+    "id": 46,
+    "name": "Hand-Blocked Bagru Print",
+    "slug": "hand-blocked-bagru-print",
+    "price": 3200,
+    "priceId": "price_1PQSzeSIa5s7V5rYzytKkLaE",
+    "description": "A cotton saree from Bagru, Rajasthan, featuring traditional hand-block printing with natural dyes.",
+    "imageUrl": "https://picsum.photos/600/845",
+    "data-ai-hint": "bagru print"
+  },
+  {
+    "id": 47,
+    "name": "Coimbatore Cotton Silk",
+    "slug": "coimbatore-cotton-silk",
+    "price": 4600,
+    "priceId": "price_1PQT0fSIa5s7V5rY0ztKkLaF",
+    "description": "A soft and durable saree from Coimbatore, blending the comfort of cotton with the sheen of silk.",
+    "imageUrl": "https://picsum.photos/600/846",
+    "data-ai-hint": "cotton silk"
+  },
+  {
+    "id": 48,
+    "name": "Bengal Tant Cotton",
+    "slug": "bengal-tant-cotton",
+    "price": 2500,
+    "priceId": "price_1PQT1fSIa5s7V5rY10uKkLaG",
+    "description": "The quintessential Bengali cotton saree, known for its lightness, crispness, and decorative borders.",
+    "imageUrl": "https://picsum.photos/600/847",
+    "data-ai-hint": "tant saree"
+  },
+  {
+    "id": 49,
+    "name": "Chikankari on Kota Doria",
+    "slug": "chikankari-on-kota-doria",
+    "price": 5100,
+    "priceId": "price_1PQT2fSIa5s7V5rY21uKkLaH",
+    "description": "A beautiful fusion of Lucknow's Chikankari embroidery on the checkered Kota Doria fabric.",
+    "imageUrl": "https://picsum.photos/600/848",
+    "data-ai-hint": "chikankari kota"
+  },
+  {
+    "id": 50,
+    "name": "Kanchi Cotton Saree",
+    "slug": "kanchi-cotton-saree",
+    "price": 3900,
+    "priceId": "price_1PQT3fSIa5s7V5rY32uKkLaI",
+    "description": "Durable and elegant Kanchi cotton saree with temple borders and traditional checks or stripes.",
+    "imageUrl": "https://picsum.photos/600/849",
+    "data-ai-hint": "kanchi cotton"
+  }
 ]
